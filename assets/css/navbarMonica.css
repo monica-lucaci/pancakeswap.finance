@@ -10,6 +10,134 @@
   box-sizing: border-box;
 }
 
+.nav-wrapper {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  transition: top 0.2s ease 0s;
+  height: 126px;
+  width: 100%;
+  z-index: 20;
+}
+
+/*banner */
+.banner-wrapper {
+  height: 70px;
+  min-height: 70px;
+  max-height: 70px;
+  width: 100%;
+}
+
+@media screen and (min-width: 852px) {
+  .banner {
+    padding: 0px;
+    background: linear-gradient(rgb(128, 81, 214) 0%, rgb(73, 34, 134) 100%);
+  }
+}
+
+.banner {
+  display: flex;
+  overflow: hidden;
+  height: 100%;
+  padding: 12px;
+  align-items: center;
+  background-image: linear-gradient(
+    rgb(128, 81, 214) 0%,
+    rgb(73, 34, 134) 100%
+  );
+}
+
+.banner-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content img {
+  height: auto;
+  max-width: 100%;
+}
+
+.banner-content_text {
+  background: rgba(39, 38, 44, 0.4);
+  border-radius: 16px;
+  padding: 8px;
+  width: 60%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.banner-content_text .banner-content_text_span {
+  flex-shrink: 0;
+  margin-right: 4px;
+}
+
+.orange_span {
+  color: var(--colors-banner-warning);
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.grey_span {
+  color: rgb(189, 194, 196);
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.link_span {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.banner-button {
+  padding: 2px;
+  width: 48px;
+
+  position: relative;
+  align-items: center;
+  border: 0px;
+  border-radius: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0px;
+  transition:
+    background-color 0.2s ease 0s,
+    opacity 0.2s ease 0s;
+  height: 48px;
+  padding: 0px 24px;
+  background-color: transparent;
+  color: var(--colors-primary);
+  box-shadow: none;
+}
+
+.banner-button_svg {
+  align-self: center;
+  fill: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  flex-shrink: 0;
+}
+
+.banner-button:hover .banner-button_svg {
+  opacity: 0.65;
+}
+
+/*navbar*/
 .nav {
   display: flex;
   justify-content: space-between;
@@ -53,6 +181,7 @@
   0% {
     transform: scaleY(1);
   }
+
   50% {
     transform: scaleY(0.2);
   }
