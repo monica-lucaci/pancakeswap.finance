@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <div class="body-wrapper">
+  <div class="body-wrapper" id="confetti-container">
     <div class="body-content-wrapper">
       <div class="body-content">
         <!-- Monica - Navbar -->
@@ -358,7 +358,7 @@
                     </a>
                   </div>
                   <div class="nav-r-links_dropdown">
-                    <div class="nav-r-link_dropdown">
+                    <div class="nav-r-link_dropdown nav-r-language">
                       <button scale="xs" variant="text" class="nav-r-link-dropdown-btnlng">
                         <svg viewBox="0 0 24 24" color="textSubtle" width="24px" mr="0.5rem"
                           xmlns="http://www.w3.org/2000/svg" class="nav-r-link-dropdown-btnlng_svg">
@@ -369,116 +369,89 @@
                         </svg>
                       </button>
 
-                      <div class="nav-r-link_dropdown_items">
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                      <div class="nav-r-link_dropdown_items nav-r-language-dropdown">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           العربية
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           বাংলা
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           English
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           Deutsch
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           Ελληνικά
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           Español
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           Suomalainen
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           Filipino
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           Français
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           हिंदी
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">Magyar
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
+                          Magyar
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">Bahasa
-                          Indonesia
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
+                          Bahasa Indonesia
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           Italiano
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           日本語
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           한국어
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           Nederlands
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           Polski
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           Português(Brazil)
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           Português
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           Română
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           Русский
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           Svenska
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           தமிழ்
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           Türkçe
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           Українська
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           TiếngViệt
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           简体中文
                         </button>
-                        <button class="nav-r-link_dropdown_item" variant="text" scale="md"
-                          style="min-height: 32px; height: auto;">
+                        <button class="nav-r-link_dropdown_itemlg lang-btn-drop" variant="text" scale="md">
                           繁體中文
                         </button>
 
@@ -486,9 +459,17 @@
 
                     </div>
                   </div>
-                  <button class="nav-r-links_btn__settings">
-                    settings
-                  </button>
+                  <div class="nav-r-settings">
+                    <button class="nav-r-settings_btn show-modal " variant="text" scale="tsm" mr="8px"
+                      id="open-settings-dialog-button-GLOBAL">
+                      <svg viewBox="0 0 24 24" height="24" width="24" color="textSubtle"
+                        xmlns="http://www.w3.org/2000/svg" class="nav-r-settings_svg">
+                        <path
+                          d="M19.43 12.98C19.47 12.66 19.5 12.34 19.5 12C19.5 11.66 19.47 11.34 19.43 11.02L21.54 9.37C21.73 9.22 21.78 8.95 21.66 8.73L19.66 5.27C19.54 5.05 19.27 4.97 19.05 5.05L16.56 6.05C16.04 5.65 15.48 5.32 14.87 5.07L14.49 2.42C14.46 2.18 14.25 2 14 2H9.99996C9.74996 2 9.53996 2.18 9.50996 2.42L9.12996 5.07C8.51996 5.32 7.95996 5.66 7.43996 6.05L4.94996 5.05C4.71996 4.96 4.45996 5.05 4.33996 5.27L2.33996 8.73C2.20996 8.95 2.26996 9.22 2.45996 9.37L4.56996 11.02C4.52996 11.34 4.49996 11.67 4.49996 12C4.49996 12.33 4.52996 12.66 4.56996 12.98L2.45996 14.63C2.26996 14.78 2.21996 15.05 2.33996 15.27L4.33996 18.73C4.45996 18.95 4.72996 19.03 4.94996 18.95L7.43996 17.95C7.95996 18.35 8.51996 18.68 9.12996 18.93L9.50996 21.58C9.53996 21.82 9.74996 22 9.99996 22H14C14.25 22 14.46 21.82 14.49 21.58L14.87 18.93C15.48 18.68 16.04 18.34 16.56 17.95L19.05 18.95C19.28 19.04 19.54 18.95 19.66 18.73L21.66 15.27C21.78 15.05 21.73 14.78 21.54 14.63L19.43 12.98ZM12 15.5C10.07 15.5 8.49996 13.93 8.49996 12C8.49996 10.07 10.07 8.5 12 8.5C13.93 8.5 15.5 10.07 15.5 12C15.5 13.93 13.93 15.5 12 15.5Z">
+                        </path>
+                      </svg>
+                    </button>
+                  </div>
                   <div class="nav-r-links_dropdown">
                     <div class="nav-r-link_dropdown">
                       <div class="nav-r-link_dropdown_btn">
@@ -633,39 +614,208 @@
 
                     </div>
                   </div>
-                  <button class="main-button">Connect Wallet</button>
+                  <button class="menu-button">Connect Wallet</button>
                 </div>
               </div>
             </div>
           </nav>
         </div>
-        <div class="section-wrapper">
-          <div class="sections">
-            <!-- Luigi - Section -->
-            <div class="section1"></div>
-            <!-- Miriana - Sections -->
-            <div class="section2">
+        <div class="modal hidden">
+          <div class="modal-box">
+            <div class="modal-title">
+              <div class="modal-title_h2">
+                <h2>Settings</h2>
+              </div>
+              <button class="close-modal">
+                <svg viewBox="0 0 24 24" color="primary" width="20px" xmlns="http://www.w3.org/2000/svg"
+                  class="close-modal_svg">
+                  <path fill="currentColor"
+                    d="M18.3 5.70997C17.91 5.31997 17.28 5.31997 16.89 5.70997L12 10.59L7.10997 5.69997C6.71997 5.30997 6.08997 5.30997 5.69997 5.69997C5.30997 6.08997 5.30997 6.71997 5.69997 7.10997L10.59 12L5.69997 16.89C5.30997 17.28 5.30997 17.91 5.69997 18.3C6.08997 18.69 6.71997 18.69 7.10997 18.3L12 13.41L16.89 18.3C17.28 18.69 17.91 18.69 18.3 18.3C18.69 17.91 18.69 17.28 18.3 16.89L13.41 12L18.3 7.10997C18.68 6.72997 18.68 6.08997 18.3 5.70997Z"
+                    </path>
+                </svg>
+              </button>
+            </div>
+            <div class="modal-content-wrapper">
+              <div class="modal-content">
+                <div class="modal-content-items">
+                  <div class="modal-content-item">GLOBAL</div>
+                  <div class="modal-content-item darkMode">
+                    <div class="modal-content-item_text">Dark Mode</div>
+                    <div class="modal-content-item_chcbx">
+                      <input scale="md" type="checkbox" class="modal-content-item_chcbx_inp">
+                      <div scale="md" class="modal-content-item_chcbx_content">
+                        <svg viewBox="0 0 24 24" color="warning" width="20px" xmlns="http://www.w3.org/2000/svg"
+                          class="modal-content-item_chcbx_content_svg">
+                          <path
+                            d="M5.66 4.2L6.05 4.59C6.44 4.97 6.44 5.61 6.05 5.99L6.04 6C5.65 6.39 5.03 6.39 4.64 6L4.25 5.61C3.86 5.23 3.86 4.6 4.25 4.21L4.26 4.2C4.64 3.82 5.27 3.81 5.66 4.2Z">
+                          </path>
+                          <path
+                            d="M1.99 10.95H3.01C3.56 10.95 4 11.39 4 11.95V11.96C4 12.51 3.56 12.95 3 12.94H1.99C1.44 12.94 1 12.5 1 11.95V11.94C1 11.39 1.44 10.95 1.99 10.95Z">
+                          </path>
+                          <path
+                            d="M12 1H12.01C12.56 1 13 1.44 13 1.99V2.96C13 3.51 12.56 3.95 12 3.94H11.99C11.44 3.94 11 3.5 11 2.95V1.99C11 1.44 11.44 1 12 1Z">
+                          </path>
+                          <path
+                            d="M18.34 4.2C18.73 3.82 19.36 3.82 19.75 4.21C20.14 4.6 20.14 5.22 19.75 5.61L19.36 6C18.98 6.39 18.35 6.39 17.96 6L17.95 5.99C17.56 5.61 17.56 4.98 17.95 4.59L18.34 4.2Z">
+                          </path>
+                          <path
+                            d="M18.33 19.7L17.94 19.31C17.55 18.92 17.55 18.3 17.95 17.9C18.33 17.52 18.96 17.51 19.35 17.9L19.74 18.29C20.13 18.68 20.13 19.31 19.74 19.7C19.35 20.09 18.72 20.09 18.33 19.7Z">
+                          </path>
+                          <path
+                            d="M20 11.95V11.94C20 11.39 20.44 10.95 20.99 10.95H22C22.55 10.95 22.99 11.39 22.99 11.94V11.95C22.99 12.5 22.55 12.94 22 12.94H20.99C20.44 12.94 20 12.5 20 11.95Z">
+                          </path>
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M6 11.95C6 8.64 8.69 5.95 12 5.95C15.31 5.95 18 8.64 18 11.95C18 15.26 15.31 17.95 12 17.95C8.69 17.95 6 15.26 6 11.95ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z">
+                          </path>
+                          <path
+                            d="M12 22.9H11.99C11.44 22.9 11 22.46 11 21.91V20.95C11 20.4 11.44 19.96 11.99 19.96H12C12.55 19.96 12.99 20.4 12.99 20.95V21.91C12.99 22.46 12.55 22.9 12 22.9Z">
+                          </path>
+                          <path
+                            d="M5.66 19.69C5.27 20.08 4.64 20.08 4.25 19.69C3.86 19.3 3.86 18.68 4.24 18.28L4.63 17.89C5.02 17.5 5.65 17.5 6.04 17.89L6.05 17.9C6.43 18.28 6.44 18.91 6.05 19.3L5.66 19.69Z">
+                          </path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="modal-content-item_chcbx_content">
+                      <svg viewBox="0 0 24 24" color="backgroundAlt" width="20px" xmlns="http://www.w3.org/2000/svg"
+                        class="modal-content-item_chcbx_content_svg">
+                        <path
+                          d="M5.66 4.2L6.05 4.59C6.44 4.97 6.44 5.61 6.05 5.99L6.04 6C5.65 6.39 5.03 6.39 4.64 6L4.25 5.61C3.86 5.23 3.86 4.6 4.25 4.21L4.26 4.2C4.64 3.82 5.27 3.81 5.66 4.2Z">
+                        </path>
+                        <path
+                          d="M1.99 10.95H3.01C3.56 10.95 4 11.39 4 11.95V11.96C4 12.51 3.56 12.95 3 12.94H1.99C1.44 12.94 1 12.5 1 11.95V11.94C1 11.39 1.44 10.95 1.99 10.95Z">
+                        </path>
+                        <path
+                          d="M12 1H12.01C12.56 1 13 1.44 13 1.99V2.96C13 3.51 12.56 3.95 12 3.94H11.99C11.44 3.94 11 3.5 11 2.95V1.99C11 1.44 11.44 1 12 1Z">
+                        </path>
+                        <path
+                          d="M18.34 4.2C18.73 3.82 19.36 3.82 19.75 4.21C20.14 4.6 20.14 5.22 19.75 5.61L19.36 6C18.98 6.39 18.35 6.39 17.96 6L17.95 5.99C17.56 5.61 17.56 4.98 17.95 4.59L18.34 4.2Z">
+                        </path>
+                        <path
+                          d="M18.33 19.7L17.94 19.31C17.55 18.92 17.55 18.3 17.95 17.9C18.33 17.52 18.96 17.51 19.35 17.9L19.74 18.29C20.13 18.68 20.13 19.31 19.74 19.7C19.35 20.09 18.72 20.09 18.33 19.7Z">
+                        </path>
+                        <path
+                          d="M20 11.95V11.94C20 11.39 20.44 10.95 20.99 10.95H22C22.55 10.95 22.99 11.39 22.99 11.94V11.95C22.99 12.5 22.55 12.94 22 12.94H20.99C20.44 12.94 20 12.5 20 11.95Z">
+                        </path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M6 11.95C6 8.64 8.69 5.95 12 5.95C15.31 5.95 18 8.64 18 11.95C18 15.26 15.31 17.95 12 17.95C8.69 17.95 6 15.26 6 11.95ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z">
+                        </path>
+                        <path
+                          d="M12 22.9H11.99C11.44 22.9 11 22.46 11 21.91V20.95C11 20.4 11.44 19.96 11.99 19.96H12C12.55 19.96 12.99 20.4 12.99 20.95V21.91C12.99 22.46 12.55 22.9 12 22.9Z">
+                        </path>
+                        <path
+                          d="M5.66 19.69C5.27 20.08 4.64 20.08 4.25 19.69C3.86 19.3 3.86 18.68 4.24 18.28L4.63 17.89C5.02 17.5 5.65 17.5 6.04 17.89L6.05 17.9C6.43 18.28 6.44 18.91 6.05 19.3L5.66 19.69Z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" color="backgroundAlt" width="20px" xmlns="http://www.w3.org/2000/svg"
+                        class="modal-content-item_chcbx_content_svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M4.1534 13.6089L4.15362 13.61C4.77322 16.8113 7.42207 19.3677 10.647 19.8853L10.6502 19.8858C13.0412 20.2736 15.2625 19.6103 16.9422 18.2833C11.3549 16.2878 7.9748 10.3524 9.26266 4.48816C5.69846 5.77194 3.35817 9.51245 4.1534 13.6089ZM10.0083 2.21054C4.76622 3.2533 1.09895 8.36947 2.19006 13.9901C2.97006 18.0201 6.28006 21.2101 10.3301 21.8601C13.8512 22.4311 17.0955 21.1608 19.2662 18.8587C19.2765 18.8478 19.2866 18.837 19.2968 18.8261C19.4385 18.6745 19.5757 18.5184 19.7079 18.3581C19.7105 18.355 19.713 18.3519 19.7156 18.3487C19.8853 18.1426 20.0469 17.9295 20.2001 17.7101C20.4101 17.4001 20.2401 16.9601 19.8701 16.9201C19.5114 16.8796 19.1602 16.8209 18.817 16.7452C18.7964 16.7406 18.7758 16.736 18.7552 16.7313C18.6676 16.7114 18.5804 16.6903 18.4938 16.6681C18.4919 16.6676 18.4901 16.6672 18.4882 16.6667C13.0234 15.2647 9.72516 9.48006 11.4542 4.03417C11.4549 4.03214 11.4555 4.03012 11.4562 4.0281C11.4875 3.92954 11.5205 3.83109 11.5552 3.73278C11.5565 3.72911 11.5578 3.72543 11.5591 3.72175C11.6768 3.38921 11.8136 3.05829 11.9701 2.73005C12.1301 2.39005 11.8501 2.01005 11.4701 2.03005C11.1954 2.04379 10.924 2.06848 10.6561 2.10368C10.6517 2.10427 10.6472 2.10486 10.6428 2.10545C10.4413 2.13221 10.2418 2.16492 10.0446 2.2034C10.0325 2.20576 10.0204 2.20814 10.0083 2.21054Z">
+                        </path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal-content-item ShowUsername">
+                  <div class="modal-content-item_textsvg">
+                    <div class="modal-content-item_text">Show Username</div>
+                    <div class="modal-content-item_textsvg_svgbox">
+                      <div class="modal-content-item_textsvg_svgbox1">
+                        <svg viewBox="0 0 24 24" color="textSubtle" width="16px" xmlns="http://www.w3.org/2000/svg"
+                          class="modal-content-item_textsvg_svgbox1_svg">
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20ZM11 16H13V18H11V16ZM12.61 6.04C10.55 5.74 8.73 7.01 8.18 8.83C8 9.41 8.44 10 9.05 10H9.25C9.66 10 9.99 9.71 10.13 9.33C10.45 8.44 11.4 7.83 12.43 8.05C13.38 8.25 14.08 9.18 14 10.15C13.9 11.49 12.38 11.78 11.55 13.03C11.55 13.04 11.54 13.04 11.54 13.05C11.53 13.07 11.52 13.08 11.51 13.1C11.42 13.25 11.33 13.42 11.26 13.6C11.25 13.63 11.23 13.65 11.22 13.68C11.21 13.7 11.21 13.72 11.2 13.75C11.08 14.09 11 14.5 11 15H13C13 14.58 13.11 14.23 13.28 13.93C13.3 13.9 13.31 13.87 13.33 13.84C13.41 13.7 13.51 13.57 13.61 13.45C13.62 13.44 13.63 13.42 13.64 13.41C13.74 13.29 13.85 13.18 13.97 13.07C14.93 12.16 16.23 11.42 15.96 9.51C15.72 7.77 14.35 6.3 12.61 6.04Z">
+                          </path>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div scale="md" class="modal-content-item_chcbx">
+                    <input scale="md" id="toggle-subgraph-health-button" type="checkbox" class="modal-content-item_chcbx_inp" checked="">
+                    <div scale="md" class="modal-content-item_chcbx_empty"></div>
+                  </div>
+                </div>
+                <div class="modal-content-item TokenRiskScanning">
+                  <div class="modal-content-item_textsvg">
+                    <div class="modal-content-item_text">Token Risk Scanning</div>
+                    <div class="modal-content-item_textsvg_svgbox">
+                      <div class="modal-content-item_textsvg_svgbox1">
+                        <svg viewBox="0 0 24 24" color="textSubtle" width="16px" xmlns="http://www.w3.org/2000/svg"
+                          class="modal-content-item_textsvg_svgbox1_svg">
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20ZM11 16H13V18H11V16ZM12.61 6.04C10.55 5.74 8.73 7.01 8.18 8.83C8 9.41 8.44 10 9.05 10H9.25C9.66 10 9.99 9.71 10.13 9.33C10.45 8.44 11.4 7.83 12.43 8.05C13.38 8.25 14.08 9.18 14 10.15C13.9 11.49 12.38 11.78 11.55 13.03C11.55 13.04 11.54 13.04 11.54 13.05C11.53 13.07 11.52 13.08 11.51 13.1C11.42 13.25 11.33 13.42 11.26 13.6C11.25 13.63 11.23 13.65 11.22 13.68C11.21 13.7 11.21 13.72 11.2 13.75C11.08 14.09 11 14.5 11 15H13C13 14.58 13.11 14.23 13.28 13.93C13.3 13.9 13.31 13.87 13.33 13.84C13.41 13.7 13.51 13.57 13.61 13.45C13.62 13.44 13.63 13.42 13.64 13.41C13.74 13.29 13.85 13.18 13.97 13.07C14.93 12.16 16.23 11.42 15.96 9.51C15.72 7.77 14.35 6.3 12.61 6.04Z">
+                          </path>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div scale="md" class="modal-content-item_chcbx">
+                    <input scale="md" id="toggle-subgraph-health-button" type="checkbox" class="modal-content-item_chcbx_inp" checked="">
+                    <div scale="md" class="modal-content-item_chcbx_empty"></div>
+                  </div>
+                </div>
+                <div class="modal-content-item DefaulttransactionSpeed">
+                  <div class="modal-content-item_textsvg">
+                    <div class="modal-content-item_text">Default transaction Speed</div>
+                    <div class="modal-content-item_textsvg_svgbox">
+                      <div class="modal-content-item_textsvg_svgbox1">
+                        <svg viewBox="0 0 24 24" color="textSubtle" width="16px" xmlns="http://www.w3.org/2000/svg"
+                          class="modal-content-item_textsvg_svgbox1_svg">
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20ZM11 16H13V18H11V16ZM12.61 6.04C10.55 5.74 8.73 7.01 8.18 8.83C8 9.41 8.44 10 9.05 10H9.25C9.66 10 9.99 9.71 10.13 9.33C10.45 8.44 11.4 7.83 12.43 8.05C13.38 8.25 14.08 9.18 14 10.15C13.9 11.49 12.38 11.78 11.55 13.03C11.55 13.04 11.54 13.04 11.54 13.05C11.53 13.07 11.52 13.08 11.51 13.1C11.42 13.25 11.33 13.42 11.26 13.6C11.25 13.63 11.23 13.65 11.22 13.68C11.21 13.7 11.21 13.72 11.2 13.75C11.08 14.09 11 14.5 11 15H13C13 14.58 13.11 14.23 13.28 13.93C13.3 13.9 13.31 13.87 13.33 13.84C13.41 13.7 13.51 13.57 13.61 13.45C13.62 13.44 13.63 13.42 13.64 13.41C13.74 13.29 13.85 13.18 13.97 13.07C14.93 12.16 16.23 11.42 15.96 9.51C15.72 7.77 14.35 6.3 12.61 6.04Z">
+                          </path>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-content-item">
+                  <button class="menu-button">Default</button>
+                  <button class="menu-button">Standard (3) </button>
+                  <button class="menu-button">Fast (4) </button>
+                  <button class="menu-button">Instant (5) </button>
+                </div>
+              </div>
 
             </div>
-            <div class="section3"></div>
-            <div class="section4"></div>
-            <!-- Eleonora - Sections -->
-            <div class="section5"></div>
-            <div class="section6"></div>
-            <div class="section7"></div>
           </div>
+
         </div>
 
       </div>
-    </div>
+      <div class="overlay hidden"></div>
+      <div class="section-wrapper">
+        <div class="sections">
+          <!-- Luigi - Section -->
+          <div class="section1"></div>
+          <!-- Miriana - Sections -->
+          <div class="section2">
 
-    <!-- Desirè - Footer -->
-    <div class="footer-wrapper">
-      <footer>
+          </div>
+          <div class="section3"></div>
+          <div class="section4"></div>
+          <!-- Eleonora - Sections -->
+          <div class="section5"></div>
+          <div class="section6"></div>
+          <div class="section7"></div>
+        </div>
+      </div>
 
-      </footer>
     </div>
   </div>
+
+  <!-- Desirè - Footer -->
+  <div class="footer-wrapper">
+    <footer>
+
+    </footer>
+  </div>
+  </div>
+  <div id="confetti-container" style="display: none;"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.12.0/tsparticles.confetti.bundle.min.js"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>
