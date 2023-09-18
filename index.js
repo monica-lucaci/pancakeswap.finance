@@ -44,6 +44,43 @@ document.addEventListener('keydown', function (e) {
 
 
 
+//more button modal2
+
+
+// Initial count of items
+let itemCount = 8;   // Change this to match your initial content
+const maxItems = 13; // Total number of items you want to have
+
+// Function to show more items
+function showMoreItems() {
+  const content = document.getElementById('modal2items');
+  const hiddenItems = document.querySelectorAll('.item.hidden');
+  const loadMoreBtn = document.getElementById('loadMoreBtn');
+
+  // Check if there are more items to show
+  if (itemCount < maxItems) {
+    console.log(maxItems);
+    // Show more items (e.g., 5 more items in this example)
+    const itemsToShow = Math.min(maxItems - itemCount, 5);
+    
+    // Use forEach to iterate through hidden items and show them
+    hiddenItems.forEach((item, index) => {
+      if (index < itemsToShow) {
+        console.log(itemsToShow);
+        item.style.display = 'flex'; // Show the hidden item
+        itemCount++;
+      }
+    });
+    console.log(itemCount,maxItems);
+    if (itemCount >= maxItems) {
+      content.removeChild(loadMoreBtn);
+    }
+  } 
+}
+
+// Event listener for the "Load More" button
+const loadMoreBtn = document.getElementById('loadMoreBtn');
+loadMoreBtn.addEventListener('click', showMoreItems);
 
 
 
@@ -79,7 +116,7 @@ const tooltips = document.querySelectorAll('.tooltip');
 
 containers.forEach((container, index) => {
   container.addEventListener('mouseenter', () => {
-    tooltips[index].style.display = 'block';
+    tooltips[index].style.display = 'flex';
   });
 
   container.addEventListener('mouseleave', () => {

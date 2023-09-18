@@ -1,7 +1,10 @@
 :root {
-  --colors-backgroundAlt: #e7e3eb;
+  --colors-backgroundAlt: #fff;
   --colors-input: #eeeaf4;
   --colors-textSubtle: #7a6eaa;
   --colors-gradientCardHeader: linear-gradient(111.68deg, #f2ecf2, #e8f2f6);
   --colors-dropdown: #f6f6f6;
+  --colors-failure:#ed4b9e
+  --colors-inputSecondary:#d7caec;
+  
 }
