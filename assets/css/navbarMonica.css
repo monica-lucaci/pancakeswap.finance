@@ -34,9 +34,9 @@
 
 .banner {
   display: flex;
+  align-items: center;
   overflow: hidden;
   height: 100%;
-  align-items: center;
   padding: 12px;
   background-image: linear-gradient(
     rgb(128, 81, 214) 0%,
@@ -109,29 +109,30 @@
 .banner-button {
   padding: 2px;
   width: 48px;
+  height: 48px;
+  padding: 0px 24px;
 
   position: relative;
+  display: inline-flex;
   align-items: center;
+  justify-content: center;
   border: 0px;
   border-radius: 16px;
-  cursor: pointer;
-  display: inline-flex;
   font-family: inherit;
   font-size: 16px;
   font-weight: 600;
-  justify-content: center;
   letter-spacing: 0.03em;
   line-height: 1;
   opacity: 1;
   outline: 0px;
+  background-color: transparent;
   transition:
     background-color 0.2s ease 0s,
     opacity 0.2s ease 0s;
-  height: 48px;
-  padding: 0px 24px;
-  background-color: transparent;
+
   color: var(--colors-primary);
   box-shadow: none;
+  cursor: pointer;
 }
 
 .banner-button_svg {
@@ -1021,12 +1022,10 @@
   background-color: var(--colors-textSubtle);
 }
 
-
-.modal2-slide1-btn2.never-show-div1{
+.modal2-slide1-btn2.never-show-div1 {
   color: var(--colors-textSubtle);
   background-color: var(--colors-input);
 }
-
 
 .modal2-box_card {
   border-radius: 24px;
@@ -1456,7 +1455,7 @@
   text-decoration: none;
 }
 
-.modal2-box_card_slider_link_svg{
+.modal2-box_card_slider_link_svg {
   align-self: center;
   fill: var(--colors-backgroundAlt);
   color: var(--colors-backgroundAlt);
