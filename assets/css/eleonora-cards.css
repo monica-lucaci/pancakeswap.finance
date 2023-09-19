@@ -280,9 +280,9 @@
   color: var(--colors-invertedContrast);
   font: var(--font-link);
 }
-/* cambia il colore del titolo!!!!!!!!!!!! */
+
 .lottery-main-title.two {
-  color: rgb(231, 204, 52);
+  color:#ffc700;
   font: var(--font-small-title);
   margin: 8px 0;
 }
