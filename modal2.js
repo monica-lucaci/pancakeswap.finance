@@ -3,55 +3,39 @@
 const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
 const btnCloseModal = document.querySelector(".close-modal");
-const btnsOpenModal = document.querySelector(".show-modal");
+const $btnsShowModal = document.querySelectorAll(".show-modal");
+const modal2 = document.querySelector(".modal2");
 
-const openModal = function () {
+const showModal = (event) => {
+  console.dir(event.target.dataset);
+  const target = event.target.dataset.target;
+  const modal = document.querySelector(target);
+
   modal.classList.remove("hidden");
   overlay.classList.remove("hidden");
 };
 
-const closeModal = function () {
-  modal.classList.add("hidden");
-  overlay.classList.add("hidden");
-};
-
-btnsOpenModal.addEventListener("click", openModal);
-
-btnCloseModal.addEventListener("click", closeModal);
-overlay.addEventListener("click", closeModal);
-
-document.addEventListener("keydown", function (e) {
-  // console.log(e.key);
-
-  if (e.key === "Escape" && !modal.classList.contains("hidden")) {
-    closeModal();
-  }
+$btnsShowModal.forEach(($btn) => {
+  $btn.addEventListener("click", showModal);
 });
 
-//apre il modal e l'overlay del connect button
-
-const modal2 = document.querySelector(".modal2");
-const btnsOpenModal2 = document.querySelectorAll(".show-modal2");
-
-const openModal2 = function () {
-  modal2.classList.remove("hidden");
-  overlay.classList.remove("hidden");
-};
-
-const closeModal2 = function () {
+const closeModal = () => {
+  modal.classList.add("hidden");
   modal2.classList.add("hidden");
   overlay.classList.add("hidden");
 };
 
-btnsOpenModal2.forEach((btn) => {
-  btn.addEventListener("click", openModal2);
-});
+btnCloseModal.addEventListener("click", closeModal);
+overlay.addEventListener("click", closeModal);
 
-overlay.addEventListener("click", closeModal2);
-
-document.addEventListener("keydown", function (e) {
-  if (e.key === "Escape" && !modal2.classList.contains("hidden")) {
-    closeModal2();
+document.addEventListener("keydown", (e) => {
+  // console.log(e.key);
+  if (
+    e.key === "Escape" &&
+    (!modal.classList.contains("hidden") ||
+      !modal2.classList.contains("hidden"))
+  ) {
+    closeModal();
   }
 });
 

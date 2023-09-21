@@ -1345,7 +1345,7 @@
   height: 100%;
   z-index: 1;
   display: flex;
-  transition-property: transform;
+  /* transition-property: transform; */
   /* transition-timing-function:var(--swiper-wrapper-transition-timing-function,initial); */
   box-sizing: content-box;
   /* transition-duration: 0ms;
@@ -1486,4 +1486,8 @@
 
 .hidden {
   display: none;
+}
+
+.nav-r-settings_btn svg {
+  z-index: -1;
 }

@@ -27,3 +27,50 @@ const showDiv2 = () => {
 
 btn1.addEventListener("click", showDiv1);
 btn2.addEventListener("click", showDiv2);
+
+const divA = document.getElementById("divA");
+const divB = document.getElementById("divB");
+const prevButton = document.getElementById("prevButton");
+const nextButton = document.getElementById("nextButton");
+let currentSlide = divA;
+
+const showDivA = () => {
+  divA.classList.remove("hidden");
+  divB.classList.add("hidden");
+  currentSlide = divA;
+};
+
+const showDivB = () => {
+  divA.classList.add("hidden");
+  divB.classList.remove("hidden");
+  currentSlide = divB;
+};
+
+const nextSlide = () => {
+  if (currentSlide === divA) {
+    showDivB();
+  } else {
+    showDivA();
+  }
+};
+
+const prevSlide = () => {
+  if (currentSlide === divA) {
+    showDivB();
+  } else {
+    showDivA();
+  }
+};
+
+// Set an interval to automatically switch slides every 5 seconds
+const interval = setInterval(nextSlide, 5000);
+
+// Add event listeners to the previous and next buttons
+prevButton.addEventListener("click", prevSlide);
+nextButton.addEventListener("click", nextSlide);
+
+// Ensure one slide is displayed initially
+showDivA();
+
+// Clear the interval when needed (e.g., when switching to another section)
+// clearInterval(interval);

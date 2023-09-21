@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home | PancakeSwap</title>
   <link rel="stylesheet" href="./assets/css/styles.css" />
+  <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
 </head>
 
 <body>
@@ -474,7 +475,7 @@
                     </div>
                   </div>
                   <div class="nav-r-settings">
-                    <button class="nav-r-settings_btn show-modal " variant="text" scale="tsm" mr="8px"
+                    <button class="nav-r-settings_btn show-modal " data-target="#modal1" variant="text" scale="tsm" mr="8px"
                       id="open-settings-dialog-button-GLOBAL">
                       <svg viewBox="0 0 24 24" height="24" width="24" color="textSubtle"
                         xmlns="http://www.w3.org/2000/svg" class="nav-r-settings_svg">
@@ -628,13 +629,13 @@
 
                     </div>
                   </div>
-                  <button class="menu-button show-modal2">Connect Wallet</button>
+                  <button class="menu-button show-modal" data-target="#modal2">Connect Wallet</button>
                 </div>
               </div>
             </div>
           </nav>
         </div>
-        <div class="modal hidden">
+        <div class="modal hidden" id="modal1" >
           <div class="modal-box">
             <div class="modal-title">
               <div class="modal-title_h2">
@@ -842,7 +843,7 @@
           </div>
 
         </div>
-        <div class="modal2 hidden" style="overflow: visible;">
+        <div class="modal2 hidden" id="modal2" style="overflow: visible;">
           <div class="modal2-box-wrapper modal2-manydiv" style="overflow: visible; border: none;">
             <div class="modal2-box modal2-manydiv">
               <div class="modal2-box_content modal2-manydiv">
@@ -1080,13 +1081,12 @@
                   </div>
                 </div>
                 <div class=" hidden modal2-manydiv modal2-box_card_slider_wrapper modal3" id="Web3WalletDiv">
-                  <div class="modal2-manydiv modal2-box_card_slider"
+                  <div class="modal2-manydiv modal2-box_card_slider "
                     style="gap: 24px;"> 
-                    <div class="swiper swiper-initialized swiper-horizontal modal2-box_card_slider_content"
+                    <div class="swiper swiper-initialized swiper-horizontal modal2-box_card_slider_content swiper-container"
                       style="width: 100%; margin-left: 0px; margin-right: 0px;">
-                      <div class=" modal2-box_card_slides"
-                        style="transition-duration: 0ms; transform: translate3d(-792px, 0px, 0px); transition-delay: 0ms;">
-                        <div class="modal2-box_card_slide  modal2-box_card_slide1" data-swiper-slide-index="1"
+                      <div class=" modal2-box_card_slides swiper-wrapper">
+                        <div class="modal2-box_card_slide  modal2-box_card_slide1 swiper-slide" id="divA" data-swiper-slide-index="1"
                           style="width: 792px;">
                           <h2 class="modal2-box_card_slide_title">Login using a wallet connection</h2>
                           <div m="auto" class="modal2-box_card_slide_img">
@@ -1097,7 +1097,7 @@
                             website, simply set up your wallet in one go, and connect it to your favorite DApps.
                           </div>
                         </div>
-                        <div class="modal2-box_card_slide  modal2-box_card_slide2 " data-swiper-slide-index="0" style="width: 792px;">
+                        <div class="modal2-box_card_slide  modal2-box_card_slide2 hidden swiper-slide" id="divB" data-swiper-slide-index="0" style="width: 792px;">
                           <h2 class="modal2-box_card_slide_title">Your first step in the DeFi world</h2>
                           <div m="auto" class="modal2-box_card_slide_img">
                             <img src="https://cdn.pancakeswap.com/wallets/wallet_intro.png" class="modal2-box_card_slide_imgpng">
@@ -1112,11 +1112,11 @@
                     <div class="modal2-manydiv modal2-box_card_slider_btns">
                       <div class="modal2-manydiv modal2-box_card_slider_btn">
                         <div
-                          class="modal2-manydiv modal2-box_card_slider_btn_design modal2-box_card_slider_btn_prev">
+                          class="modal2-manydiv modal2-box_card_slider_btn_design modal2-box_card_slider_btn_prev swiper-button-prev" id="prevButton">
                         </div>
                       </div>
                       <div class="modal2-manydiv modal2-box_card_slider_btn">
-                        <div class="modal2-manydiv modal2-box_card_slider_btn_design modal2-box_card_slider_btn_nxt">
+                        <div class="modal2-manydiv modal2-box_card_slider_btn_design modal2-box_card_slider_btn_nxt swiper-button-next" id="nextButton">
                         </div>
                       </div>
                     </div>
@@ -1175,6 +1175,7 @@
   <script src="index.js"></script>
   <script src="modal2.js"></script>
   <script src="modal2-3.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 
 </html>
