@@ -43,13 +43,13 @@
     rgb(73, 34, 134) 100%
   );
 }
-
+/* 
 @media screen and (min-width: 852px) {
   .banner {
     padding: 0px;
     background: linear-gradient(rgb(128, 81, 214) 0%, rgb(73, 34, 134) 100%);
   }
-}
+} */
 
 .banner-content {
   display: flex;
@@ -328,7 +328,7 @@
 }
 
 .nav-l-links_dropdown:hover .nav-l-link_dropdown_items,
-.nav-r-links_dropdown:hover .nav-r-link_dropdown_items {
+.nav-r-links_dropdown:hover .nav-r-link_dropdown_items{
   display: block;
 }
 
@@ -578,6 +578,10 @@
 /*connect wallet button*/
 .menu.banner-button {
   align-self: center;
+}
+
+.connect-mobile{
+  display:none;
 }
 
 /* modal window and overlay*/
@@ -1462,6 +1466,28 @@
   flex-shrink: 0;
   margin-left: 4px;
 }
+
+/*-----------NAVBAR MOBILE/IPAD----------*/
+.navbar-mq-wrapper{
+  display:flex;
+}
+.navbar-mq-content{
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding-top: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+  background: var(--colors-backgroundAlt);
+  border-top: 1px solid var(--colors-cardBorder);
+  /* padding-bottom: env(safe-area-inset-bottom); */
+  z-index: 30;
+}
+
+
+
 /*
 
 
@@ -1490,4 +1516,25 @@
 
 .nav-r-settings_btn svg {
   z-index: -1;
+}
+
+
+
+
+/* .nav-l-link_dropdown_items{
+  position: absolute;
+  bottom: 150px;
+  display: flex;
+  z-index: 30;
+  flex-direction: column;
+  width: 95%;
+ }
+ .bdkVa:hover +.nav-l-link_dropdown_items {
+  display: block;
+} */
+
+
+
+.navbar-mq-content_item_links{
+  display:none;
 }
