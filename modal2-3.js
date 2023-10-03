@@ -5,6 +5,9 @@ const div2 = document.getElementById("Web3WalletDiv");
 const btn1 = document.getElementById("sliderConnectBtn");
 const btn2 = document.getElementById("Web3WalletBtn");
 
+
+
+
 // div1 compare  div2 scompare and intercambia stili btn
 const showDiv1 = () => {
   div1.classList.remove("hidden");

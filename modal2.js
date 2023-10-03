@@ -6,6 +6,25 @@ const btnCloseModal = document.querySelector(".close-modal");
 const $btnsShowModal = document.querySelectorAll(".show-modal");
 const modal2 = document.querySelector(".modal2");
 
+
+// // Get references to your elements
+// const wrappers = document.querySelectorAll('.navbar-mq-content_item_wrapper');
+
+// wrappers.forEach(wrapper => {
+//   wrapper.addEventListener('mouseover', () => {
+//     overlay.classList.remove('hidden');
+//     // Your code to remove 'hidden' class or handle the overlay visibility here
+//   });
+
+//   wrapper.addEventListener('mouseout', () => {
+//     overlay.classList.add('hidden');
+//     // Your code to add 'hidden' class or handle the overlay visibility here
+//   });
+// });
+
+
+
+
 const showModal = (event) => {
   console.dir(event.target.dataset);
   const target = event.target.dataset.target;
