@@ -282,7 +282,7 @@
 }
 
 .lottery-main-title.two {
-  color:#ffc700;
+  color: #ffc700;
   font: var(--font-small-title);
   margin: 8px 0;
 }
@@ -503,7 +503,6 @@
   max-height: 256px;
 }
 
-
 /* PROPRIETA DA RIVEDERE!!!! */
 .connect-wallet-right-cake-cont {
   left: 900px;
@@ -549,4 +548,42 @@
 
 .main-button.connect-wallet {
   margin-top: 24px;
+}
+
+@media screen and (max-width: 360px) {
+  .last-cards-section {
+    width: 360px;
+  }
+
+  .lottery-central-container {
+    padding: 16px;
+  }
+
+  .lottery-card-contents {
+    width: 100%;
+  }
+
+  .cake-card-button-container.one {
+    grid-template-areas:
+      "a b"
+      "c d"
+      "e f";
+  }
+  .central-lottery-cards-container {
+    flex-direction: column;
+    width: 100%;
+  }
+.cake-central-card-up-first-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.cake-card-button-container.one{
+  gap: 0px;
+}
+
+.cake-card-data-container{
+  padding: 12px 16px;
+}
+
 }
