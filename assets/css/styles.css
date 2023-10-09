@@ -1,7 +1,7 @@
 @import url(reset.css);
 @import url(root.css);
 @import url(buttons.css);
-@import url(luigi-carousel.css);
+@import url(carousel.css);
 
 /* =========== SCROLL BAR =========== */
 ::-webkit-scrollbar {
