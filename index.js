@@ -46,8 +46,9 @@ containers.forEach((container, index) => {
 //cambia il sole a luna
 //cambia bg a verde quando check
 
+
+
 const lunaSvg = document.querySelector(".moon_svg_copy");
-//const checkBox = document.querySelector(".modal-content-item_chcbx_inp")
 const divSole = document.querySelector(".modal-content-item_chcbx_content");
 const divSoleChild = document.querySelector(".darkMode_chckbx_sun");
 const inputChckBx = document.querySelectorAll(".modal-content-item_chcbx_inp");
@@ -74,7 +75,7 @@ inputChckBx.forEach((checkbox, index) => {
       // controlla se esiste
       if (checkbox.checked) {
         // bg verde
-        chckContainers[index - 1].style.backgroundColor = "#31d0aa";
+        chckContainers[index - 1].style.backgroundColor = "var(--colors-success)";
       } else {
         //  unchecked torna come prima;
         chckContainers[index - 1].style.backgroundColor = "";
@@ -82,3 +83,15 @@ inputChckBx.forEach((checkbox, index) => {
     }
   });
 });
+
+const darkModeToggle = document.getElementById('darkModeToggle');
+const body = document.body;
+
+darkModeToggle.addEventListener('change', () => {
+  if (darkModeToggle.checked) {
+    body.setAttribute('data-theme', 'dark');
+  } else {
+    body.setAttribute('data-theme', 'light');
+  }
+});
+//change theme

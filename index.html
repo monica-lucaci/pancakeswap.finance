@@ -14,14 +14,17 @@
     <div class="body-content-wrapper">
       <div class="body-content">
         <!-- Monica - Navbar -->
-        <div class="nav-wrapper" >
-          <div  class="banner-wrapper">
+        <div class="nav-wrapper">
+          <div class="banner-wrapper">
             <div class="banner warning-banner">
               <div class="banner-content">
                 <img src="https://pancakeswap.finance/images/decorations/phishing-warning-bunny.webp"
                   alt="phishing-warning" width="92px">
                 <div class="banner-content_text">
-                  <span class="banner-content_text_span orange_span">Phishing warning: </span> <span class="banner-content_text_span  grey_span">please make sure you're visiting </span> <span class="banner-content_text_span link_span">https://pancakeswap.finance</span> <span class="banner-content_text_span grey_span"> - check the URL carefully.</span>
+                  <span class="banner-content_text_span orange_span">Phishing warning: </span> <span
+                    class="banner-content_text_span  grey_span">please make sure you're visiting </span> <span
+                    class="banner-content_text_span link_span">https://pancakeswap.finance</span> <span
+                    class="banner-content_text_span grey_span"> - check the URL carefully.</span>
                 </div>
               </div>
               <button class="banner-button" variant="text" scale="md">
@@ -657,7 +660,7 @@
                   <div class="modal-content-item darkMode">
                     <div class="modal-content-item_text">Dark Mode</div>
                     <div class="modal-content-item_chcbx darkMode_chckbx">
-                      <input scale="md" type="checkbox" class="modal-content-item_chcbx_inp">
+                      <input scale="md" type="checkbox" class="modal-content-item_chcbx_inp" id="darkModeToggle" data-theme="dark">
                       <div scale="md" class="modal-content-item_chcbx_content">
                         <div class="darkMode_chckbx_sun">
                           <svg viewBox="0 0 24 24" color="warning" width="20px" xmlns="http://www.w3.org/2000/svg"
@@ -1184,7 +1187,8 @@
                       </div>
                     </div>
                   </a>
-                  <span color="failure" class="navbar-mq-content_item_span_dott navbar-mq-content_item_span_dott_pink"></span>
+                  <span color="failure"
+                    class="navbar-mq-content_item_span_dott navbar-mq-content_item_span_dott_pink"></span>
                 </span>
               </div>
             </div>
@@ -1396,20 +1400,17 @@
             <div class="navbar-mq-content_item_links" data-popper-reference-hidden="false" data-popper-escaped="false"
               data-popper-placement="top">
               <div class="navbar-mq-content_item_link">
-                <a href="/prediction" image="/images/decorations/prediction.png"
-                  class="navbar-mq-content_item_link_a">
+                <a href="/prediction" image="/images/decorations/prediction.png" class="navbar-mq-content_item_link_a">
                   Prediction (BETA)
                 </a>
               </div>
               <div class="navbar-mq-content_item_link">
-                <a href="/lottery" image="/images/decorations/lottery.png"
-                  class="navbar-mq-content_item_link_a">
+                <a href="/lottery" image="/images/decorations/lottery.png" class="navbar-mq-content_item_link_a">
                   Lottery
                 </a>
               </div>
               <div class="navbar-mq-content_item_link">
-                <a href="/pottery" image="/images/decorations/lottery.png"
-                  class="navbar-mq-content_item_link_a">
+                <a href="/pottery" image="/images/decorations/lottery.png" class="navbar-mq-content_item_link_a">
                   Pottery (BETA)
                 </a>
               </div>
@@ -1417,13 +1418,13 @@
                 <a href="https://protectors.pancakeswap.finance" target="_blank" class="navbar-mq-content_item_link_a">
                   <div class="navbar-mq navbar-mq-content_item_link_text">
                     Pancake Protectors
-                    <svg viewBox="0 0 24 24" color="textSubtle" width="20px" xmlns="http://www.w3.org/2000/svg"
-                      class="nav-mq-change_svg1">
-                      <path
-                        d="M16.3 8.09014C15.91 8.48014 15.91 9.10014 16.3 9.49014L18.2 11.3901H9C8.45 11.3901 8 11.8401 8 12.3901C8 12.9401 8.45 13.3901 9 13.3901H18.2L16.3 15.2901C15.91 15.6801 15.91 16.3001 16.3 16.6901C16.69 17.0801 17.31 17.0801 17.7 16.6901L21.29 13.1001C21.68 12.7101 21.68 12.0801 21.29 11.6901L17.7 8.09014C17.31 7.70014 16.69 7.70014 16.3 8.09014ZM4 19.3901H11C11.55 19.3901 12 19.8401 12 20.3901C12 20.9401 11.55 21.3901 11 21.3901H4C2.9 21.3901 2 20.4901 2 19.3901V5.39014C2 4.29014 2.9 3.39014 4 3.39014H11C11.55 3.39014 12 3.84014 12 4.39014C12 4.94014 11.55 5.39014 11 5.39014H4V19.3901Z">
-                      </path>
-                    </svg>
                   </div>
+                  <svg viewBox="0 0 24 24" color="textSubtle" width="20px" xmlns="http://www.w3.org/2000/svg"
+                    class="nav-mq-change_svg1">
+                    <path
+                      d="M16.3 8.09014C15.91 8.48014 15.91 9.10014 16.3 9.49014L18.2 11.3901H9C8.45 11.3901 8 11.8401 8 12.3901C8 12.9401 8.45 13.3901 9 13.3901H18.2L16.3 15.2901C15.91 15.6801 15.91 16.3001 16.3 16.6901C16.69 17.0801 17.31 17.0801 17.7 16.6901L21.29 13.1001C21.68 12.7101 21.68 12.0801 21.29 11.6901L17.7 8.09014C17.31 7.70014 16.69 7.70014 16.3 8.09014ZM4 19.3901H11C11.55 19.3901 12 19.8401 12 20.3901C12 20.9401 11.55 21.3901 11 21.3901H4C2.9 21.3901 2 20.4901 2 19.3901V5.39014C2 4.29014 2.9 3.39014 4 3.39014H11C11.55 3.39014 12 3.84014 12 4.39014C12 4.94014 11.55 5.39014 11 5.39014H4V19.3901Z">
+                    </path>
+                  </svg>
                 </a>
               </div>
             </div>
@@ -1462,106 +1463,113 @@
 
             </div>
             <div class="navbar-mq-content_item_links " data-popper-reference-hidden="false" data-popper-escaped="false"
-            data-popper-placement="top">
-            <div class="navbar-mq-content_item_link">
-              <a href="https://blog.pancakeswap.finance/articles/pancake-swap-s-de-fi-galaxy-tour-planet-1-uranus-communities-unite-with-your-local-de-fi-heroes"
-                target="_blank" class="navbar-mq-content_item_link_a">
-                <div class="navbar-mq navbar-mq-content_item_link_text">
-                  Uranus Communities
+              data-popper-placement="top">
+              <div class="navbar-mq-content_item_link">
+                <a href="https://blog.pancakeswap.finance/articles/pancake-swap-s-de-fi-galaxy-tour-planet-1-uranus-communities-unite-with-your-local-de-fi-heroes"
+                  target="_blank" class="navbar-mq-content_item_link_a">
+                  <div class="navbar-mq navbar-mq-content_item_link_text">
+                    Uranus Communities
+
+                  </div>
                   <svg viewBox="0 0 24 24" color="textSubtle" width="20px" xmlns="http://www.w3.org/2000/svg"
                     class="nav-mq-change_svg1">
                     <path
                       d="M16.3 8.09014C15.91 8.48014 15.91 9.10014 16.3 9.49014L18.2 11.3901H9C8.45 11.3901 8 11.8401 8 12.3901C8 12.9401 8.45 13.3901 9 13.3901H18.2L16.3 15.2901C15.91 15.6801 15.91 16.3001 16.3 16.6901C16.69 17.0801 17.31 17.0801 17.7 16.6901L21.29 13.1001C21.68 12.7101 21.68 12.0801 21.29 11.6901L17.7 8.09014C17.31 7.70014 16.69 7.70014 16.3 8.09014ZM4 19.3901H11C11.55 19.3901 12 19.8401 12 20.3901C12 20.9401 11.55 21.3901 11 21.3901H4C2.9 21.3901 2 20.4901 2 19.3901V5.39014C2 4.29014 2.9 3.39014 4 3.39014H11C11.55 3.39014 12 3.84014 12 4.39014C12 4.94014 11.55 5.39014 11 5.39014H4V19.3901Z">
                     </path>
                   </svg>
-                </div>
-              </a>
-            </div>
-            <div class="navbar-mq-content_item_link">
-              <a href="https://blog.pancakeswap.finance/articles/pancake-swap-s-de-fi-galaxy-tour-planet-2-mercury-mysteries-the-enigma-of-multichain-swaps"
-                target="_blank" class="navbar-mq-content_item_link_a">
-                <div class="navbar-mq navbar-mq-content_item_link_text">
-                  Mercury Mysteries
+                </a>
+              </div>
+              <div class="navbar-mq-content_item_link">
+                <a href="https://blog.pancakeswap.finance/articles/pancake-swap-s-de-fi-galaxy-tour-planet-2-mercury-mysteries-the-enigma-of-multichain-swaps"
+                  target="_blank" class="navbar-mq-content_item_link_a">
+                  <div class="navbar-mq navbar-mq-content_item_link_text">
+                    Mercury Mysteries
+
+                  </div>
                   <svg viewBox="0 0 24 24" color="textSubtle" width="20px" xmlns="http://www.w3.org/2000/svg"
                     class="nav-mq-change_svg1">
                     <path
                       d="M16.3 8.09014C15.91 8.48014 15.91 9.10014 16.3 9.49014L18.2 11.3901H9C8.45 11.3901 8 11.8401 8 12.3901C8 12.9401 8.45 13.3901 9 13.3901H18.2L16.3 15.2901C15.91 15.6801 15.91 16.3001 16.3 16.6901C16.69 17.0801 17.31 17.0801 17.7 16.6901L21.29 13.1001C21.68 12.7101 21.68 12.0801 21.29 11.6901L17.7 8.09014C17.31 7.70014 16.69 7.70014 16.3 8.09014ZM4 19.3901H11C11.55 19.3901 12 19.8401 12 20.3901C12 20.9401 11.55 21.3901 11 21.3901H4C2.9 21.3901 2 20.4901 2 19.3901V5.39014C2 4.29014 2.9 3.39014 4 3.39014H11C11.55 3.39014 12 3.84014 12 4.39014C12 4.94014 11.55 5.39014 11 5.39014H4V19.3901Z">
                     </path>
                   </svg>
-                </div>
-              </a>
-            </div>
-            <div class="navbar-mq-content_item_link">
-              <a href="https://blog.pancakeswap.finance/articles/pancake-swap-s-de-fi-galaxy-tour-planet-3-venus-protector-pancake-protectors-birthday-nft"
-                target="_blank" class="navbar-mq-content_item_link_a">
-                <div class="navbar-mq navbar-mq-content_item_link_text">
-                  Venus Protectors
+                </a>
+              </div>
+              <div class="navbar-mq-content_item_link">
+                <a href="https://blog.pancakeswap.finance/articles/pancake-swap-s-de-fi-galaxy-tour-planet-3-venus-protector-pancake-protectors-birthday-nft"
+                  target="_blank" class="navbar-mq-content_item_link_a">
+                  <div class="navbar-mq navbar-mq-content_item_link_text">
+                    Venus Protectors
+
+                  </div>
                   <svg viewBox="0 0 24 24" color="textSubtle" width="20px" xmlns="http://www.w3.org/2000/svg"
                     class="nav-mq-change_svg1">
                     <path
                       d="M16.3 8.09014C15.91 8.48014 15.91 9.10014 16.3 9.49014L18.2 11.3901H9C8.45 11.3901 8 11.8401 8 12.3901C8 12.9401 8.45 13.3901 9 13.3901H18.2L16.3 15.2901C15.91 15.6801 15.91 16.3001 16.3 16.6901C16.69 17.0801 17.31 17.0801 17.7 16.6901L21.29 13.1001C21.68 12.7101 21.68 12.0801 21.29 11.6901L17.7 8.09014C17.31 7.70014 16.69 7.70014 16.3 8.09014ZM4 19.3901H11C11.55 19.3901 12 19.8401 12 20.3901C12 20.9401 11.55 21.3901 11 21.3901H4C2.9 21.3901 2 20.4901 2 19.3901V5.39014C2 4.29014 2.9 3.39014 4 3.39014H11C11.55 3.39014 12 3.84014 12 4.39014C12 4.94014 11.55 5.39014 11 5.39014H4V19.3901Z">
                     </path>
                   </svg>
-                </div>
-              </a>
-            </div>
-            <div class="navbar-mq-content_item_link">
-              <a href="https://blog.pancakeswap.finance/articles/pancake-swap-s-de-fi-galaxy-tour-planet-1-uranus-unity-rain-showering-cake-rewards-on-telegram"
-                target="_blank" class="navbar-mq-content_item_link_a">
-                <div class="navbar-mq navbar-mq-content_item_link_text">
-                  Uranus Unity Rain
+                </a>
+              </div>
+              <div class="navbar-mq-content_item_link">
+                <a href="https://blog.pancakeswap.finance/articles/pancake-swap-s-de-fi-galaxy-tour-planet-1-uranus-unity-rain-showering-cake-rewards-on-telegram"
+                  target="_blank" class="navbar-mq-content_item_link_a">
+                  <div class="navbar-mq navbar-mq-content_item_link_text">
+                    Uranus Unity Rain
+
+                  </div>
                   <svg viewBox="0 0 24 24" color="textSubtle" width="20px" xmlns="http://www.w3.org/2000/svg"
                     class="nav-mq-change_svg1">
                     <path
                       d="M16.3 8.09014C15.91 8.48014 15.91 9.10014 16.3 9.49014L18.2 11.3901H9C8.45 11.3901 8 11.8401 8 12.3901C8 12.9401 8.45 13.3901 9 13.3901H18.2L16.3 15.2901C15.91 15.6801 15.91 16.3001 16.3 16.6901C16.69 17.0801 17.31 17.0801 17.7 16.6901L21.29 13.1001C21.68 12.7101 21.68 12.0801 21.29 11.6901L17.7 8.09014C17.31 7.70014 16.69 7.70014 16.3 8.09014ZM4 19.3901H11C11.55 19.3901 12 19.8401 12 20.3901C12 20.9401 11.55 21.3901 11 21.3901H4C2.9 21.3901 2 20.4901 2 19.3901V5.39014C2 4.29014 2.9 3.39014 4 3.39014H11C11.55 3.39014 12 3.84014 12 4.39014C12 4.94014 11.55 5.39014 11 5.39014H4V19.3901Z">
                     </path>
                   </svg>
-                </div>
-              </a>
-            </div>
-            <div class="navbar-mq-content_item_link">
-              <a href="https://blog.pancakeswap.finance/articles/pancake-swap-s-de-fi-galaxy-tour-planet-4-mars-mystique-lottery-paradise"
-                target="_blank" class="navbar-mq-content_item_link_a">
-                <div class="navbar-mq navbar-mq-content_item_link_text">
-                  Mars Lottery Paradise
+                </a>
+              </div>
+              <div class="navbar-mq-content_item_link">
+                <a href="https://blog.pancakeswap.finance/articles/pancake-swap-s-de-fi-galaxy-tour-planet-4-mars-mystique-lottery-paradise"
+                  target="_blank" class="navbar-mq-content_item_link_a">
+                  <div class="navbar-mq navbar-mq-content_item_link_text">
+                    Mars Lottery Paradise
+
+                  </div>
                   <svg viewBox="0 0 24 24" color="textSubtle" width="20px" xmlns="http://www.w3.org/2000/svg"
                     class="nav-mq-change_svg1">
                     <path
                       d="M16.3 8.09014C15.91 8.48014 15.91 9.10014 16.3 9.49014L18.2 11.3901H9C8.45 11.3901 8 11.8401 8 12.3901C8 12.9401 8.45 13.3901 9 13.3901H18.2L16.3 15.2901C15.91 15.6801 15.91 16.3001 16.3 16.6901C16.69 17.0801 17.31 17.0801 17.7 16.6901L21.29 13.1001C21.68 12.7101 21.68 12.0801 21.29 11.6901L17.7 8.09014C17.31 7.70014 16.69 7.70014 16.3 8.09014ZM4 19.3901H11C11.55 19.3901 12 19.8401 12 20.3901C12 20.9401 11.55 21.3901 11 21.3901H4C2.9 21.3901 2 20.4901 2 19.3901V5.39014C2 4.29014 2.9 3.39014 4 3.39014H11C11.55 3.39014 12 3.84014 12 4.39014C12 4.94014 11.55 5.39014 11 5.39014H4V19.3901Z">
                     </path>
                   </svg>
-                </div>
-              </a>
-            </div>
-            <div class="navbar-mq-content_item_link">
-              <a href="https://blog.pancakeswap.finance/articles/pancake-swap-s-de-fi-galaxy-tour-planet-5-jupiter-predictors-predicting-crypto-movements"
-                target="_blank" class="navbar-mq-content_item_link_a">
-                <div class="navbar-mq navbar-mq-content_item_link_text">
-                  Jupiter Predictors
-                  <svg viewBox="0 0 24 24"
-                    color="textSubtle" width="20px" xmlns="http://www.w3.org/2000/svg" class="nav-mq-change_svg1">
-                    <path
-                      d="M16.3 8.09014C15.91 8.48014 15.91 9.10014 16.3 9.49014L18.2 11.3901H9C8.45 11.3901 8 11.8401 8 12.3901C8 12.9401 8.45 13.3901 9 13.3901H18.2L16.3 15.2901C15.91 15.6801 15.91 16.3001 16.3 16.6901C16.69 17.0801 17.31 17.0801 17.7 16.6901L21.29 13.1001C21.68 12.7101 21.68 12.0801 21.29 11.6901L17.7 8.09014C17.31 7.70014 16.69 7.70014 16.3 8.09014ZM4 19.3901H11C11.55 19.3901 12 19.8401 12 20.3901C12 20.9401 11.55 21.3901 11 21.3901H4C2.9 21.3901 2 20.4901 2 19.3901V5.39014C2 4.29014 2.9 3.39014 4 3.39014H11C11.55 3.39014 12 3.84014 12 4.39014C12 4.94014 11.55 5.39014 11 5.39014H4V19.3901Z">
-                    </path>
-                  </svg>
-                </div>
-              </a>
-            </div>
-            <div class="navbar-mq-content_item_link">
-              <a href="https://blog.pancakeswap.finance/articles/pancake-swap-s-de-fi-galaxy-tour-planet-6-saturn-syndicate-perpetual-trading-galore"
-                target="_blank" class="navbar-mq-content_item_link_a">
-                <div class="navbar-mq navbar-mq-content_item_link_text">
-                  Saturn Syndicate
+                </a>
+              </div>
+              <div class="navbar-mq-content_item_link">
+                <a href="https://blog.pancakeswap.finance/articles/pancake-swap-s-de-fi-galaxy-tour-planet-5-jupiter-predictors-predicting-crypto-movements"
+                  target="_blank" class="navbar-mq-content_item_link_a">
+                  <div class="navbar-mq navbar-mq-content_item_link_text">
+                    Jupiter Predictors
+
+                  </div>
                   <svg viewBox="0 0 24 24" color="textSubtle" width="20px" xmlns="http://www.w3.org/2000/svg"
                     class="nav-mq-change_svg1">
                     <path
                       d="M16.3 8.09014C15.91 8.48014 15.91 9.10014 16.3 9.49014L18.2 11.3901H9C8.45 11.3901 8 11.8401 8 12.3901C8 12.9401 8.45 13.3901 9 13.3901H18.2L16.3 15.2901C15.91 15.6801 15.91 16.3001 16.3 16.6901C16.69 17.0801 17.31 17.0801 17.7 16.6901L21.29 13.1001C21.68 12.7101 21.68 12.0801 21.29 11.6901L17.7 8.09014C17.31 7.70014 16.69 7.70014 16.3 8.09014ZM4 19.3901H11C11.55 19.3901 12 19.8401 12 20.3901C12 20.9401 11.55 21.3901 11 21.3901H4C2.9 21.3901 2 20.4901 2 19.3901V5.39014C2 4.29014 2.9 3.39014 4 3.39014H11C11.55 3.39014 12 3.84014 12 4.39014C12 4.94014 11.55 5.39014 11 5.39014H4V19.3901Z">
                     </path>
                   </svg>
-                </div>
-              </a>
+                </a>
+              </div>
+              <div class="navbar-mq-content_item_link">
+                <a href="https://blog.pancakeswap.finance/articles/pancake-swap-s-de-fi-galaxy-tour-planet-6-saturn-syndicate-perpetual-trading-galore"
+                  target="_blank" class="navbar-mq-content_item_link_a">
+                  <div class="navbar-mq navbar-mq-content_item_link_text">
+                    Saturn Syndicate
+
+                  </div>
+                  <svg viewBox="0 0 24 24" color="textSubtle" width="20px" xmlns="http://www.w3.org/2000/svg"
+                    class="nav-mq-change_svg1">
+                    <path
+                      d="M16.3 8.09014C15.91 8.48014 15.91 9.10014 16.3 9.49014L18.2 11.3901H9C8.45 11.3901 8 11.8401 8 12.3901C8 12.9401 8.45 13.3901 9 13.3901H18.2L16.3 15.2901C15.91 15.6801 15.91 16.3001 16.3 16.6901C16.69 17.0801 17.31 17.0801 17.7 16.6901L21.29 13.1001C21.68 12.7101 21.68 12.0801 21.29 11.6901L17.7 8.09014C17.31 7.70014 16.69 7.70014 16.3 8.09014ZM4 19.3901H11C11.55 19.3901 12 19.8401 12 20.3901C12 20.9401 11.55 21.3901 11 21.3901H4C2.9 21.3901 2 20.4901 2 19.3901V5.39014C2 4.29014 2.9 3.39014 4 3.39014H11C11.55 3.39014 12 3.84014 12 4.39014C12 4.94014 11.55 5.39014 11 5.39014H4V19.3901Z">
+                    </path>
+                  </svg>
+                </a>
+              </div>
             </div>
-          </div>
           </div>
 
           <div class="navbar-mq navbar-mq-content_item_wrapper">
@@ -1591,75 +1599,75 @@
 
             </div>
             <div class="navbar-mq-content_item_links" data-popper-reference-hidden="false" data-popper-escaped="false"
-            data-popper-placement="top">
-            <div class="navbar-mq-content_item_link">
-              <a href="/info/v3" class="navbar-mq-content_item_link_a">
-                Info
-              </a>
+              data-popper-placement="top">
+              <div class="navbar-mq-content_item_link">
+                <a href="/info/v3" class="navbar-mq-content_item_link_a">
+                  Info
+                </a>
+              </div>
+              <div class="navbar-mq-content_item_link">
+                <a href="/ifo" image="/images/ifos/ifo-bunny.png" class="navbar-mq-content_item_link_a">
+                  IFO
+                </a>
+              </div>
+              <div class="navbar-mq-content_item_link">
+                <a href="/nfts" image="/images/decorations/nft.png" class="navbar-mq-content_item_link_a">
+                  NFT
+                </a>
+              </div>
+              <div class="navbar-mq-content_item_link">
+                <a href="/affiliates-program" class="navbar-mq-content_item_link_a">
+                  Affiliate Program
+                </a>
+              </div>
+              <div class="navbar-mq-content_item_link">
+                <a href="/voting" image="/images/voting/voting-bunny.png" class="navbar-mq-content_item_link_a">
+                  Voting
+                  <div class="navbar-mq-content_item_link_a_btn nav-l-link_dropdown_item_a_live">
+                    Vote Now
+                  </div>
+                </a>
+              </div>
+              <div class="navbar-mq-content_item_link">
+                <hr class="navbar-mq-content_item_link_hr">
+              </div>
+              <div class="navbar-mq-content_item_link">
+                <a href="/teams" image="/images/decorations/leaderboard.png" class="navbar-mq-content_item_link_a">
+                  Leaderboard
+                </a>
+              </div>
+              <div class="navbar-mq-content_item_link">
+                <hr class="navbar-mq-content_item_link_hr">
+              </div>
+              <div class="navbar-mq-content_item_link">
+                <a href="https://blog.pancakeswap.finance" target="_blank" class="navbar-mq-content_item_link_a">
+                  <div class="navbar-mq navbar-mq-content_item_link_text">
+                    Blog
+                  
+                  </div>
+                    <svg viewBox="0 0 24 24" color="textSubtle" width="20px" xmlns="http://www.w3.org/2000/svg"
+                      class="nav-mq-change_svg1">
+                      <path
+                        d="M16.3 8.09014C15.91 8.48014 15.91 9.10014 16.3 9.49014L18.2 11.3901H9C8.45 11.3901 8 11.8401 8 12.3901C8 12.9401 8.45 13.3901 9 13.3901H18.2L16.3 15.2901C15.91 15.6801 15.91 16.3001 16.3 16.6901C16.69 17.0801 17.31 17.0801 17.7 16.6901L21.29 13.1001C21.68 12.7101 21.68 12.0801 21.29 11.6901L17.7 8.09014C17.31 7.70014 16.69 7.70014 16.3 8.09014ZM4 19.3901H11C11.55 19.3901 12 19.8401 12 20.3901C12 20.9401 11.55 21.3901 11 21.3901H4C2.9 21.3901 2 20.4901 2 19.3901V5.39014C2 4.29014 2.9 3.39014 4 3.39014H11C11.55 3.39014 12 3.84014 12 4.39014C12 4.94014 11.55 5.39014 11 5.39014H4V19.3901Z">
+                      </path>
+                    </svg>
+                </a>
+              </div>
+              <div class="navbar-mq-content_item_link">
+                <a href="https://docs.pancakeswap.finance" target="_blank" class="navbar-mq-content_item_link_a">
+                  <div class="navbar-mq navbar-mq-content_item_link_text">
+                    Docs
+                  
+                  </div>
+                    <svg viewBox="0 0 24 24" color="textSubtle" width="20px" xmlns="http://www.w3.org/2000/svg"
+                      class="nav-mq-change_svg1">
+                      <path
+                        d="M16.3 8.09014C15.91 8.48014 15.91 9.10014 16.3 9.49014L18.2 11.3901H9C8.45 11.3901 8 11.8401 8 12.3901C8 12.9401 8.45 13.3901 9 13.3901H18.2L16.3 15.2901C15.91 15.6801 15.91 16.3001 16.3 16.6901C16.69 17.0801 17.31 17.0801 17.7 16.6901L21.29 13.1001C21.68 12.7101 21.68 12.0801 21.29 11.6901L17.7 8.09014C17.31 7.70014 16.69 7.70014 16.3 8.09014ZM4 19.3901H11C11.55 19.3901 12 19.8401 12 20.3901C12 20.9401 11.55 21.3901 11 21.3901H4C2.9 21.3901 2 20.4901 2 19.3901V5.39014C2 4.29014 2.9 3.39014 4 3.39014H11C11.55 3.39014 12 3.84014 12 4.39014C12 4.94014 11.55 5.39014 11 5.39014H4V19.3901Z">
+                      </path>
+                    </svg>
+                </a>
+              </div>
             </div>
-            <div class="navbar-mq-content_item_link">
-              <a href="/ifo" image="/images/ifos/ifo-bunny.png" class="navbar-mq-content_item_link_a">
-                IFO
-              </a>
-            </div>
-            <div class="navbar-mq-content_item_link">
-              <a href="/nfts" image="/images/decorations/nft.png" class="navbar-mq-content_item_link_a">
-                NFT
-              </a>
-            </div>
-            <div class="navbar-mq-content_item_link">
-              <a href="/affiliates-program" class="navbar-mq-content_item_link_a">
-                Affiliate Program
-              </a>
-            </div>
-            <div class="navbar-mq-content_item_link">
-              <a href="/voting" image="/images/voting/voting-bunny.png"
-                class="navbar-mq-content_item_link_a">
-                Voting
-                <div class="navbar-mq-content_item_link_a_btn">
-                  Vote Now
-                </div>
-              </a>
-            </div>
-            <div class="navbar-mq-content_item_link">
-              <hr class="navbar-mq-content_item_link_hr">
-            </div>
-            <div class="navbar-mq-content_item_link">
-              <a href="/teams" image="/images/decorations/leaderboard.png"
-                class="navbar-mq-content_item_link_a">
-                Leaderboard
-              </a>
-            </div>
-            <div class="navbar-mq-content_item_link">
-              <hr class="navbar-mq-content_item_link_hr">
-            </div>
-            <div class="navbar-mq-content_item_link">
-              <a href="https://blog.pancakeswap.finance" target="_blank" class="navbar-mq-content_item_link_a">
-                <div class="navbar-mq navbar-mq-content_item_link_text">
-                  Blog
-                  <svg viewBox="0 0 24 24" color="textSubtle" width="20px" xmlns="http://www.w3.org/2000/svg"
-                    class="nav-mq-change_svg1">
-                    <path
-                      d="M16.3 8.09014C15.91 8.48014 15.91 9.10014 16.3 9.49014L18.2 11.3901H9C8.45 11.3901 8 11.8401 8 12.3901C8 12.9401 8.45 13.3901 9 13.3901H18.2L16.3 15.2901C15.91 15.6801 15.91 16.3001 16.3 16.6901C16.69 17.0801 17.31 17.0801 17.7 16.6901L21.29 13.1001C21.68 12.7101 21.68 12.0801 21.29 11.6901L17.7 8.09014C17.31 7.70014 16.69 7.70014 16.3 8.09014ZM4 19.3901H11C11.55 19.3901 12 19.8401 12 20.3901C12 20.9401 11.55 21.3901 11 21.3901H4C2.9 21.3901 2 20.4901 2 19.3901V5.39014C2 4.29014 2.9 3.39014 4 3.39014H11C11.55 3.39014 12 3.84014 12 4.39014C12 4.94014 11.55 5.39014 11 5.39014H4V19.3901Z">
-                    </path>
-                  </svg>
-                </div>
-              </a>
-            </div>
-            <div class="navbar-mq-content_item_link">
-              <a href="https://docs.pancakeswap.finance" target="_blank" class="navbar-mq-content_item_link_a">
-                <div class="navbar-mq navbar-mq-content_item_link_text">
-                  Docs
-                  <svg viewBox="0 0 24 24" color="textSubtle" width="20px" xmlns="http://www.w3.org/2000/svg"
-                    class="nav-mq-change_svg1">
-                    <path
-                      d="M16.3 8.09014C15.91 8.48014 15.91 9.10014 16.3 9.49014L18.2 11.3901H9C8.45 11.3901 8 11.8401 8 12.3901C8 12.9401 8.45 13.3901 9 13.3901H18.2L16.3 15.2901C15.91 15.6801 15.91 16.3001 16.3 16.6901C16.69 17.0801 17.31 17.0801 17.7 16.6901L21.29 13.1001C21.68 12.7101 21.68 12.0801 21.29 11.6901L17.7 8.09014C17.31 7.70014 16.69 7.70014 16.3 8.09014ZM4 19.3901H11C11.55 19.3901 12 19.8401 12 20.3901C12 20.9401 11.55 21.3901 11 21.3901H4C2.9 21.3901 2 20.4901 2 19.3901V5.39014C2 4.29014 2.9 3.39014 4 3.39014H11C11.55 3.39014 12 3.84014 12 4.39014C12 4.94014 11.55 5.39014 11 5.39014H4V19.3901Z">
-                    </path>
-                  </svg>
-                </div>
-              </a>
-            </div>
-          </div>
           </div>
 
         </div>
