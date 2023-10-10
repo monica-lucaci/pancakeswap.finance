@@ -1,0 +1,16 @@
+@import url(reset.css);
+@import url(root.css);
+@import url(buttons.css);
+
+/* =========== SCROLL BAR =========== */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: #7a6eaa;
+    border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px -2px #FFFFFF;
+    border-radius: 1px;
+}

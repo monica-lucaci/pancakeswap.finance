@@ -1,0 +1,118 @@
+:root {
+    /* 
+    PER RICHIAMARE LE VARIABILI ->
+        font: var(--font-title)
+    */
+
+/* BUTTONS */
+--colors-primary: #1fc7d4; /* button bg color*/
+--colors-invertedContrast: #fff; /* button text */
+
+/* <----         BANNER COLOR        -----> */
+--colors-banner-warning: #ffb237;   /* title*/              --font-phishing-title: 600 14px / 1.5 "Kanit";
+--colors-banner-text:#bdc2c4;          /* text */             --font-phishing-p: 400 14px / 1.5 "Kanit";
+--colors-banner-link: white;           /* link */             --font-phishing-title: 600 14px / 1.5 "Kanit"
+--colors-banner-bg-color: linear-gradient(rgb(128, 81, 214) 0%, rgb(73, 34, 134) 100%); /* general bg gradient*/
+--colors-banner-bg-color-2: background: rgba(39, 38, 44, 0.4); /* text box */
+
+/* <----         NAVBAR         -----> */
+--colors-textSubtle: #7a6eaa;       /* trade, earn etc */   --font-paragraph: 400 16px / 1.5 "Kanit";
+--colors-secondary: #7645d9;        /* birthday */          --font-list-footer: 600 16px / 1.5 "Kanit"
+--colors-textSubtle: #7a6eaa;         /* money */             --font-list-footer: 600 16px / 1.5 "Kanit"
+--colors-success: #31d0aa;            /* dots svg */
+--colors-text: #280d5f;             /* BNM Smart Chain */   --font-list-footer: 600 16px / 1.5 "Kanit"
+
+
+/* /* <----         CAROSELLO DI MERDA WORK IN PROGRESS       -----> */
+
+/* <----         CAROSELLO CARD         -----> */
+--colors-secondary: #7645d9;        /* title */             --font-title: 600 64px / 1.1 "Kanit";
+--colors-text: #280d5f;             /* p */                 --font-sub-title: 600 20px / 1.1 "Kanit";
+--colors-primary: #1fc7d4;          /* button bg color*/    --font-link: 600 16px / 1.1 "Kanit";
+--colors-invertedContrast: #fff;    /* button text */
+
+
+
+/* <----         CARD 1         -----> */
+--colors-text: #280d5f;             /* title */             --font-small-title: 600 40px / 1.1 "Kanit";  
+--colors-textSubtle: #7a6eaa;       /* p */                 --font-paragraph: 400 16px / 1.5 "Kanit";
+ 
+            /* USERS */
+--colors-text: #280d5f;             /* title 1 */           --font-small-title: 600 40px / 1.1 "Kanit";  
+--colors-secondary: #7645d9;        /* title 2*/            /* uguale a sopra*/              
+--colors-textSubtle: #7a6eaa;       /* p */                 --font-paragraph: 400 16px / 1.5 "Kanit";
+
+            /* TRADES */
+--colors-text: #280d5f;             /* title 1 */           --font-small-title: 600 40px / 1.1 "Kanit";  
+--colors-primary: #1fc7d4;          /* title 2*/            /* uguale a sopra*/  
+--colors-textSubtle: #7a6eaa;       /* p */                 --font-paragraph: 400 16px / 1.5 "Kanit";
+
+            /* STAKED */
+--colors-text: #280d5f;             /* title 1 */           --font-small-title: 600 40px / 1.1 "Kanit"; 
+--colors-failure: #ed4b9e;          /* title 2*/            /* uguale a sopra*/ 
+--colors-textSubtle: #7a6eaa;       /* p */                 --font-paragraph: 400 16px / 1.5 "Kanit";
+
+/* <----         CARD 2         -----> */
+--colors-secondary: #7645d9;        /* title span */        --font-small-title: 600 40px / 1.1 "Kanit";  
+--colors-text: #280d5f;             /* ...title */          /* uguale a sopra*/  
+--colors-textSubtle: #7a6eaa;       /* p */                 --font-paragraph: 400 16px / 1.5 "Kanit";
+--colors-primary: #1fc7d4;          /* button bg/link */
+--colors-invertedContrast: #fff;    /* button text */
+
+/* <----         CARD 3         -----> */
+--colors-secondary: #7645d9;        /* title span */        --font-small-title: 600 40px / 1.1 "Kanit"; 
+--colors-text: #280d5f;             /* ...title */          --font-small-title: 600 40px / 1.1 "Kanit"; 
+--colors-textSubtle: #7a6eaa;       /* p */                 --font-paragraph: 400 16px / 1.5 "Kanit";
+--colors-primary: #1fc7d4;          /* button bg/link */
+--colors-invertedContrast: #fff;    /* button text */
+
+            /* Top Farms - Top Syrup Pools */
+--colors-text: #280d5f;             /* title  */            --font-sub-title: 600 20px / 1.1 "Kanit";
+--colors-secondary: #7645d9;        /* title span */        /* uguale a sopra*/
+
+            /* Content x5 (mini cards) */
+--colors-secondary: #7645d9;        /* title */             --font-smaller-title: 600 12px / 1.5 "Kanit";
+--colors-text: #280d5f;             /* numeri */            --font-link: 600 16px / 1.1 "Kanit";
+--colors-textSubtle: #7a6eaa;       /* p */                 --font-paragraph: 400 16px / 1.5 "Kanit";
+
+/* <----         CARD 4         -----> */
+--colors-secondary: #7645d9;        /* title span */        --font-small-title: 600 40px / 1.1 "Kanit"; 
+--colors-text: #280d5f;             /* ...title */          /* uguale a sopra*/  
+--colors-textSubtle: #7a6eaa;       /* p */                 --font-paragraph: 400 16px / 1.5 "Kanit";
+
+            /* Card Yellow */                                  
+--colors-text: #280d5f;             /* Prediction */        --font-link: 600 16px / 1.1 "Kanit";
+--colors-text: #280d5f;             /* $840mln */           --font-small-title: 600 40px / 1.1 "Kanit";
+--colors-text: #280d5f;             /* text 1 */            --font-list-footer: 600 16px / 1.5 "Kanit"
+--colors-text: #280d5f;             /* text2 */               --font-paragraph: 400 16px / 1.5 "Kanit";
+
+            /* Card Purple */
+--colors-invertedContrast: #fff;    /* Lottery */           --font-link: 600 16px / 1.1 "Kanit";
+/* ha un gradiente di colori */       /* $money */            --font-small-title: 600 40px / 1.1 "Kanit";
+--colors-invertedContrast: #fff;    /* text 1*/             --font-list-footer: 600 16px / 1.5 "Kanit"
+--colors-invertedContrast: #fff;    /* text 2*/               --font-paragraph: 400 16px / 1.5 "Kanit";
+
+/* <----         CARD 5         -----> */
+--colors-secondary: #7645d9;        /* title span */        --font-small-title: 600 40px / 1.1 "Kanit";
+--colors-text: #280d5f;             /* ...title */          /* uguale a sopra*/
+--colors-textSubtle: #7a6eaa;       /* p */                 --font-paragraph: 400 16px / 1.5 "Kanit";
+
+
+            /* Content x6 (mini-cards) */
+--colors-textSubtle: #7a6eaa;       /* titles */            --font-paragraph: 400 16px / 1.5 "Kanit";
+--colors-text: #280d5f;             /* numbers */           --font-data-numbers: 600 24px / 1.1 "Kanit"
+
+/* <----         CARD 6         -----> */
+--colors-white: #fff;                 /* title */              --font-small-title: 600 40px / 1.1 "Kanit"; 
+--colors-white: #fff;               /* p 1 */                --font-paragraph: 400 16px / 1.5 "Kanit";
+--colors-white: #fff;               /* p 2 */                --font-list-footer: 600 16px / 1.5 "Kanit"
+--colors-primary: #1fc7d4;            /* link */               --font-list-footer: 600 16px / 1.5 "Kanit"
+
+/* <----         FOOTER         -----> */
+--colors-secondary: #7645d9;        /* about, help, devs */    --font-title-footer: 600 16px / 1 "Kanit"
+--colors-warning: #ffb237;            /* contact/merch */      --font-list-footer: 600 16px / 1.5 "Kanit"
+--colors-white: #fff;                 /* brand, blog, tos..*/  --font-list-footer: 600 16px / 1.5 "Kanit"
+
+--colors-textSubtle: #7a6eaa;         /* EN flag title */      --font-paragraph: 400 16px / 1.5 "Kanit";
+--colors-textSubtle: #7a6eaa;       /* $money */             --font-list-footer: 600 16px / 1.5 "Kanit"
+}

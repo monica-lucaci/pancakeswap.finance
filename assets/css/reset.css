@@ -1,0 +1,29 @@
+/* =========== Import Font =========== */
+
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+
+/* =========== CSS Basic Reset =========== */
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+html {
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+ol,
+ul {
+  list-style: none;
+}
