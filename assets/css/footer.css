@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Montserrat:ital,wght@1,400;1,600&family=Prata&family=Roboto:wght@400;700&display=swap');
+
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding-top: 48px;
+  padding-bottom: 20px;
+  background: #27262C;
+  overflow: hidden;
+}
+
+.footer-container {
+  width: 1200px;
+  /* font: var(--font-paragraph); */
+  display: flex;
+  flex-direction: column;
+}
+
+.ul {
+  padding: 0;
+}
+
+.footer1 {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* .listaa {
+  list-style-type: none;
+  color: rgb(255, 241, 241);
+  margin-bottom: 8px;
+  box-sizing: border-box;
+} */
+/* .listaa a {
+  text-decoration: none;
+  color: var(--accent-alert-soft);
+} */
+/* .listaa > a:hover {
+  text-decoration: underline;
+} */
+
+.lista {
+  font: 16px Kanit, sans-serif;
+  list-style-type: none;
+  /* color: rgb(255, 241, 241); */
+  color: var(--colors-white);
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+.lista:first-child {
+  font: 16px Kanit, sans-serif;
+  color: #9A6AFF;
+}
+.lista > a {
+  text-decoration: none;
+  /* color: rgb(255, 255, 255); */
+  color: var(--colors-white);
+}
+.lista > a:hover {
+  text-decoration: underline;
+}
+
+
+.footer2 {
+  margin-top: 10px;
+  display: flex;
+  padding-bottom: 28px;
+}
+
+.social-container {
+  display: flex;
+  gap: 1.5rem;
+  padding-top: 20px;
+}
+
+.telegram {
+  position: relative;
+}
+.telegram:hover .tele-lang {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.tele-lang {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  transform: translate(-50%, 0px);
+  left: 50%;
+  bottom: 100%;
+  opacity: 0;
+  pointer-events: none;
+  width: 145px;
+  height: 16rem;
+  overflow-y: scroll;
+}
+.tele-lang a {
+  color: var(--colors-textSubtle);
+  /* background: rgb(60, 58, 58); */
+  background: #27262C;
+  text-decoration: none;
+}
+
+.dropdown2 {
+  position: relative;
+}
+
+.lang-en {
+  display: flex;
+  overflow: hidden;
+  background: none;
+  color: var(--colors-textSubtle);
+  gap: 0.3rem;
+  font-size: 1rem;
+  border: none;
+}
+
+.en {
+  display: flex;
+  overflow: hidden;
+  background: none;
+  color: #b8add2;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  padding-top: 5px;
+  font-family: var(--font-paragraph);
+}
+
+.prima-parte {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  position: relative;
+}
+
+.other-lang {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 2rem;
+  pointer-events: none;
+  opacity: 0;
+  overflow: scroll;
+  height: 15rem;
+  width: 8rem;
+  z-index: 10;
+  transition: all 0.1s ease-in;
+  overflow-y: overlay;
+  overflow-x: hidden;
+}
+
+#footer-lang:focus ~ .other-lang {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.footer3 {
+  display: flex;
+  border-top: 1px solid #383241;
+  padding-top: 2rem;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.soldi {
+  /* display: inline; */
+  /* color: rgba(199, 180, 180, 0.63); */
+  /* color: var(--colors-textSubtle); */
+  color: #b8add2;
+  padding-top: 5px;
+  font-weight: bolder;
+}
+
+.valore > a {
+  /* display: inline; */
+  display: flex;
+  /* color: rgba(199, 180, 180, 0.63); */
+  color: var(--colors-textSubtle);
+}
+
+.sc-a8cf5f33-0 {
+  display: inline-flex;
+  font-size: 16px;
+  margin-left: 20px;
+  color: var(--colors-white);
+  text-decoration: none;
+  border: none;
+  height: 32px;
+  border-radius: 16px;
+  padding: 0px 16px;
+  justify-content: center;
+  letter-spacing: 0.03rem;
+  align-items: center;
+  line-height: 1;
+  background: var(--colors-primary);
+  transition: opacity 0.3s;
+  gap: 0.5rem;
+}
+.sc-a8cf5f33-0:hover {
+  opacity: 0.65;
+}
+
+.seconda-parte {
+  display: flex;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.bunny-icon {
+  align-self: center;
+  margin-right: 10px;
+  border-radius: 50%;
+  transform: scale(100%);
+  transition: all 0.2s cubic-bezier(0.5, 0, 0.2, 3);
+  background: linear-gradient(to bottom, #53DEE9, var(--colors-primary));
+
+}
+.bunny-icon:hover {
+  transform: scale(110%);
+}

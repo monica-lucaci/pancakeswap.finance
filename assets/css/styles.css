@@ -1,6 +1,7 @@
 @import url(reset.css);
 @import url(root.css);
 @import url(buttons.css);
+@import url(footer.css);
 
 /* =========== SCROLL BAR =========== */
 ::-webkit-scrollbar {
