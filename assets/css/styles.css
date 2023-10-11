@@ -1,7 +1,7 @@
 @import url(reset.css);
 @import url(root.css);
 @import url(buttons.css);
-
+@import url(miriana-cards.css);
 /* =========== SCROLL BAR =========== */
 ::-webkit-scrollbar {
     width: 8px;
