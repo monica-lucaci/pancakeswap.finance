@@ -1,4 +1,4 @@
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 420px) {
   .nav-l-links-wrapper,
   .nav-r-links_item,
   .connect-desktop {
@@ -70,6 +70,7 @@
   }
 
   .mobile-icon {
+    display:block;
     width: 32px;
   }
 

@@ -1,0 +1,61 @@
+@media screen and (min-width: 851px) and (max-width: 1100px) {
+  .mobile-icon {
+    display: block;
+    width: 32px;
+  }
+
+  .desktop-icon {
+    display: none;
+  }
+
+  .Win {
+    display: none;
+  }
+
+  .nav-r-item_btn_text {
+    display: none;
+  }
+
+  .nav-r-item_btn_text_mq {
+    display: block;
+  }
+
+  .nav-r-links_item {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 968px) {
+  .nav-r-links_item {
+    display: block;
+  }
+
+  .mobile-icon {
+    display: none;
+  }
+
+  .desktop-icon {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .Win {
+    display: block;
+  }
+  .nav-r-item_btn_text {
+    display: none;
+  }
+  .nav-r-item_btn_text_mq {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav-r-item_btn_text {
+    display: block;
+  }
+  .nav-r-item_btn_text_mq {
+    display: none;
+  }
+}

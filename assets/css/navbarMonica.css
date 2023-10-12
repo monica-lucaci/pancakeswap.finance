@@ -161,6 +161,10 @@
   align-items: center;
 }
 
+.mobile-icon{
+  display:none;
+}
+
 .desktop-icon {
   width: 160px;
 }
@@ -1683,3 +1687,6 @@
 /* .navbar-mq-content_item_links {
   display: none;
 } */
+
+
+

@@ -84,16 +84,32 @@ loadMoreBtn.addEventListener("click", showMoreItems);
 
 
 
+// const $wrappers = document.querySelectorAll('.navbar-mq-content_item_wrapper');
+// const $dropdown = document.querySelectorAll('.navbar-mq-content_item_links');
+
+// $wrappers.forEach((wrapper, index) => {
+//   wrapper.addEventListener('click', () => {
+//     if ($dropdown[index]) {
+//       console.log($dropdown[index]);
+//        $dropdown[index].classList.remove('hidden');
+//       overlay.classList.remove('hidden');
+//     }
+    
+//   });
+// });
+
+
 const $wrappers = document.querySelectorAll('.navbar-mq-content_item_wrapper');
 const $dropdown = document.querySelectorAll('.navbar-mq-content_item_links');
 
-$wrappers.forEach((wrapper, index) => {
+for (let index = 1; index < $wrappers.length; index++) {
+  const wrapper = $wrappers[index];
+
   wrapper.addEventListener('click', () => {
     if ($dropdown[index]) {
       console.log($dropdown[index]);
-       $dropdown[index].classList.remove('hidden');
-      overlay.classList.remove('hidden');
+      $dropdown[index].classList.remove('hidden');
+      overlay.classList.remove('hidden'); 
     }
-    
   });
-});
+}
