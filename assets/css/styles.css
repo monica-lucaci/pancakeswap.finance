@@ -1,7 +1,8 @@
 @import url(reset.css);
 @import url(root.css);
 @import url(buttons.css);
-@import url(carousel.css);
+@import url(carousel/carousel.css);
+@import url(carousel/carousel-mq.css);
 
 /* =========== SCROLL BAR =========== */
 ::-webkit-scrollbar {

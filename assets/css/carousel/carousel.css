@@ -131,6 +131,7 @@
     color: rgb(55, 255, 255);
     margin-top: 0px;
     margin-bottom: 10px;
+    z-index: 2;
 }
 
 .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 .content .left .sub-title {
@@ -141,6 +142,7 @@
     font-weight: 600;
     line-height: 98%;
     margin-bottom: 10px;
+    z-index: 2;
 }
 
 .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 .content .left .main-button {
@@ -221,6 +223,7 @@
     -webkit-text-fill-color: transparent;
     font-weight: 600;
     font-style: normal;
+    z-index: 2;
 }
 
 .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-2 .content .left .sub-title {
@@ -235,6 +238,7 @@
     text-transform: uppercase;
     background-clip: unset;
     -webkit-background-clip: text;
+    z-index: 2;
 }
 
 .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-2 .content .left .main-button svg {
@@ -286,6 +290,7 @@
     font-feature-settings: "liga" 0;
     color: rgb(255, 255, 255);
     text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+    z-index: 3;
 }
 
 .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .left .sub-title {
@@ -300,6 +305,7 @@
     line-height: 110%;
     color: rgb(255, 255, 255);
     text-shadow: rgba(0, 0, 0, 0.25) 0px 2px 2px;
+    z-index: 3;
 }
 
 .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .left .buttons {
@@ -426,7 +432,7 @@
 .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-4 .content .left .logos .divider {
     height: 15px;
     width: 1px;
-    background-color: var(--colors-white);
+    background-color: #fff
 }
 
 .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-4 .content .left .title {
@@ -439,12 +445,12 @@
     font-weight: 600;
     line-height: 98%;
     padding-right: 80px;
-    color: var(--colors-white);
+    color: #fff;
     z-index: 3;
 }
 
 .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-4 .content .left .sub-title {
-    color: var(--colors-white);
+    color: #fff;
     line-height: 1.5;
     margin-bottom: 8px;
     font-size: 20px;
@@ -520,7 +526,7 @@
 .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-5 .content .left .logos .divider {
     height: 15px;
     width: 1px;
-    background-color: var(--colors-white);
+    background-color: #fff;
 }
 
 
@@ -566,7 +572,7 @@
 }
 
 .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-5 .content .left .link {
-    color: var(--colors-white);
+    color: #fff;
     font-weight: 600;
     line-height: 1.5;
     text-transform: capitalize;
@@ -636,7 +642,7 @@
 .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .left .logos .divider {
     height: 15px;
     width: 1px;
-    background-color: var(--colors-white);
+    background-color: #fff;
 }
 
 .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .left .title {
@@ -766,7 +772,7 @@
 .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content .left .logos .divider {
     height: 15px;
     width: 1px;
-    background-color: var(--colors-white);
+    background-color: #fff;
 }
 
 .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content .left .title {
@@ -893,7 +899,7 @@
 .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-8 .content .left .logos .divider {
     height: 15px;
     width: 1px;
-    background-color: var(--colors-white);
+    background-color: #fff;
 }
 
 .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-8 .content .left .title {
@@ -1012,16 +1018,14 @@
 }
 
 .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .left .sub-title {
-    font-size: 24px;
+    font-size: 22px;
     padding-left: 0px;
     margin-bottom: 10px;
 
-    padding-right: 100px;
     position: relative;
     font-family: Kanit;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
     line-height: 98%;
     letter-spacing: 0.01em;
     font-feature-settings: "liga" 0;
@@ -1034,7 +1038,6 @@
 }
 
 .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .left .sub-title::after {
-    padding-right: 0px;
 
     letter-spacing: 0.01em;
     -webkit-text-fill-color: transparent;
@@ -1046,6 +1049,7 @@
     z-index: -1;
     background: linear-gradient(166.02deg, rgb(255, 178, 55) -5.1%, rgb(255, 235, 55) 75.24%) text;
     -webkit-text-stroke: 5px rgb(118, 69, 217);
+    font-size: 22px;
 }
 
 .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .left .buttons {
@@ -1456,7 +1460,7 @@
 
 .hero-section .curve-light svg {
     display: block;
-    fill: var(--colors-text);
+    fill: #280d5f;
 }
 
 
@@ -1469,7 +1473,7 @@
 
 .hero-section .curve-dark svg {
     display: absolute;
-    fill: var(--colors-text);
+    fill: #280d5f;
     /* for now */
     display: none;
 }

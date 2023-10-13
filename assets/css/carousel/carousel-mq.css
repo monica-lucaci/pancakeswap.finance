@@ -1,0 +1,332 @@
+/* <--- SCREEN SIZE - TABLET ---> */
+
+@media only screen and (max-width: 820px) {
+    /* <------ CAROUSEL ------> */
+
+
+    /* SWIPER SLIDE 1 */
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 .content .right .background-img {
+        margin-top: 38px;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 .content .right .background-img>span:first-child img {
+        border-radius: 31px;
+    }
+
+    /* CTA */
+    .hero-section .inner .cta {
+        flex-direction: column-reverse;
+    }
+
+
+    .hero-section .inner .cta .left {
+        text-align: center;
+    }
+
+    .hero-section .inner .cta .right {
+        max-width: 50%;
+        align-self: center;
+    }
+
+    .hero-section .inner .cta .left .buttons {
+        align-self: center;
+    }
+
+    .hero-section .inner .cta .left .description h2 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    /* add for last  */
+    .hero-section .inner {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* CAROUSEL */
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .left .title {
+        font-size: 12px;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content .left .title {
+        font-size: 25px;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 .content .left .title,
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-2 .content .left .title,
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-2 .content .left .sub-title,
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .left .sub-title,
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-4 .content .left .title,
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-5 .content .left .title,
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .left .title,
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-8 .content .left .title,
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .left .title,
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-10 .content .left .title,
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-11 .content .left .title {
+        font-size: 20px;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 .content .left .sub-title,
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-4 .content .left .sub-title,
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-5 .content .left .sub-title,
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .left .sub-title,
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content .left .sub-title,
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-8 .content .left .sub-title,
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-10 .content .left .sub-title,
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-11 .content .left .sub-title {
+        display: none;
+    }
+
+
+
+    /* slide 1 */
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 .content .right>span:first-child {
+        display: none !important
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 .content .right .background-img {
+        margin-top: 112px;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 .content .left .title {
+        padding-right: 0;
+    }
+
+    /* slide 2 */
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-2 .content .left .main-button {
+        z-index: 1;
+    }
+
+    #imgSlide2 {
+        width: initial !important;
+        height: initial !important;
+        min-width: initial !important;
+        min-height: initial !important;
+        left: 145px !important;
+        top: 12px !important;
+    }
+
+    /* slide 3 */
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .left .buttons {
+        flex-direction: column;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .left .buttons .main-button {
+        font-size: 12px;
+        height: 20px;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .left .buttons .main-button svg {
+        display: none;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .left .buttons .secondary-button {
+        font-size: 12px;
+        height: 20px;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .left .buttons .secondary-button svg {
+        display: none;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .right>span:nth-child(1) {
+        left: 170px;
+        right: 0;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .right>span:nth-child(2) {
+        max-width: 2.5rem !important;
+        right: 70px !important;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .right>span:nth-child(3) {
+        display: none !important;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .right>span:nth-child(4) {
+        display: none !important;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .right>span:nth-child(5) {
+        display: none !important;
+    }
+
+    /* slide 4 */
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-4 .content .right>span:nth-child(2)>img {
+        display: none !important;
+    }
+
+    #textSlide4 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    /* slide 5 */
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-5 .content .right .background-img {
+        margin-top: 70px;
+        border-radius: 3100px;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-5 .content .right .background-img>span:first-child img {
+        border-radius: 31px;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-5 .content .right>span:nth-child(1) {
+        right: 97px !important;
+        width: 112px !important;
+    }
+
+    /* slide 6 */
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .left .title::after {
+        content: "Traverse the Treasure Islands!";
+        font-size: 20px;
+    }
+
+    #textSlide6 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .right>span:nth-child(3) {
+        right: 0 !important;
+        z-index: 100 !important;
+        overflow: visible !important;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .right>span:nth-child(3)>img {
+        min-width: 60% !important;
+        min-height: 60% !important;
+        z-index: 100 !important;
+        left: 100px !important;
+        bottom: 50px !important;
+    }
+
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .right>span:nth-child(2) {
+        max-width: 50% !important;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .right .background-img>span:first-child {
+        max-width: 100% !important;
+        bottom: 100px !important;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .right .background-img {
+        top: 0;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .left .main-button {
+        font-size: 12px;
+        height: 20px;
+    }
+
+    #textSlide7 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    #textButtonSlide7 {
+        text-transform: uppercase;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content .right>span:nth-child(1)>span>img {
+        max-width: 85% !important;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content .right>span:first-child {
+        right: 0;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content .right>span:nth-child(2)>img {
+        display: none !important;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content .right>div>span:nth-child(1)>img {
+        display: none !important;
+    }
+
+    /* slide 8*/
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-8 .content .right>span:first-child {
+        right: 0 !important;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-8 .content .right>span>img {
+        min-width: 90% !important;
+        min-height: 90% !important;
+        top: 0px !important;
+        left: 35px !important;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-8 .content .right .background-img {
+        top: -2px;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-8 .content .left .link {
+        text-transform: uppercase;
+    }
+
+    /* slide 9 */
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .left .buttons .main-button {
+        font-size: 12px;
+        height: 20px;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .left .buttons .secondary-button {
+        font-size: 12px;
+        height: 20px;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .left .sub-title {
+        margin-bottom: 35px;
+        font-size: 24px;
+        text-wrap: wrap
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .left .sub-title::after {
+        content: "Receive WBETH";
+        font-size: 24px;
+        text-wrap: wrap
+    }
+
+    /* slide 10 */
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-10 .content .left .main-button {
+        font-size: 12px;
+        height: 20px;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-10 .content .left .title {
+        font-size: 24px;
+        text-wrap: wrap;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-10 .content .left .title::after {
+        content: "Now Live on Polygon zkEVM!";
+        text-wrap: wrap;
+        font-size: 24px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-10 .content .right>span>img {
+        min-height: 60% !important;
+        min-width: 60% !important;
+        left: 100px !important;
+        bottom: 30px !important;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-10 .content .right>span:nth-child(2) {
+        right: 0 !important;
+    }
+
+}
