@@ -329,4 +329,9 @@
         right: 0 !important;
     }
 
+    /* CTA */
+    .hero-section .inner .cta .left .description h2 {
+        font-size: 32px;
+    }
+
 }
