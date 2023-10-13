@@ -1,17 +1,10 @@
-//apri modal e chiudi settings//
+//apri modal e chiudi settings/connect
 
 const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
 const btnCloseModal = document.querySelector(".close-modal");
 const $btnsShowModal = document.querySelectorAll(".show-modal");
 const modal2 = document.querySelector(".modal2");
-
-
-// // Get references to your elements
-
-
-
-
 
 
 
