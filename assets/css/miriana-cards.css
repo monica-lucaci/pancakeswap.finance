@@ -1,5 +1,5 @@
 .section2 {
-  background-image: var(--colors-banner-bg-color);
+  background-image: var(--color-background);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +11,7 @@
   z-index: -1;
 }
 
-.icon1 {
+.icon1MF {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -26,7 +26,7 @@
   font-size: 16px;
 }
 
-.text-1 {
+.text-1MF {
   color: var(--colors-text);
   font-family: Kanit, sans-serif;
   font-weight: 600;
@@ -115,7 +115,7 @@
   padding: 12px;
 }
 
-.first-icon {
+.first-iconMF {
   position: relative;
   transition: filter 0.25s linear 0s;
 }
@@ -146,11 +146,11 @@
   cursor: pointer;
 }
 
-.first-icon:hover .hover1 {
+.first-iconMF:hover .hover1 {
   opacity: 1;
 }
 
-.first-column:hover .subtitle1 {
+.first-column:hover .subtitleMF1 {
   color: var(--colors-primary);
 }
 
@@ -172,11 +172,11 @@
   box-sizing: border-box;
 }
 
-.subtitle {
+.subtitleMF {
   display: flex;
 }
 
-.subtitle1 {
+.subtitleMF1 {
   display: flex;
   color: var(--colors-textSubtle);
   line-height: 1.5;
