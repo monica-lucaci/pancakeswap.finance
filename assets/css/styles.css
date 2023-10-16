@@ -1,11 +1,13 @@
 @import url(reset.css);
-@import url(root2.css);
 @import url(root.css);
+@import url(root2.css);
 @import url(buttons.css);
+/* =========== SCROLL BAR =========== */
 
 /* STYLE CSS*/
 @import url(navbarMonica.css);
 @import url(carousel/carousel.css);
+@import url(miriana-cards.css);
 
 /* STYLE MEDIA QUERIES */
 @import url(navbar-mq-desktop.css);
