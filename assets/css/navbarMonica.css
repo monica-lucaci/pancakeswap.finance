@@ -752,6 +752,11 @@
   width: 56px;
 }
 
+.darkMode_chckbx_footer{
+  background-color: #666171;
+}
+
+
 .modal-content-item_chcbx_inp {
   cursor: pointer;
   opacity: 0;
