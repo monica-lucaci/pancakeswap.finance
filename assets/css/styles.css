@@ -1,10 +1,20 @@
 @import url(reset.css);
+@import url(root2.css);
 @import url(root.css);
 @import url(buttons.css);
+
+/* STYLE CSS*/
+@import url(navbarMonica.css);
 @import url(carousel/carousel.css);
+
+/* STYLE MEDIA QUERIES */
+@import url(navbar-mq-desktop.css);
+@import url(navbar-mq-tablet.css);
+@import url(navbar-mq-smartphone.css);
+
 @import url(carousel/carousel-mq.css);
 
-/* =========== SCROLL BAR =========== */
+/* SCROLL BAR */
 ::-webkit-scrollbar {
     width: 8px;
 }
