@@ -1,0 +1,64 @@
+
+/*SMARTPHONE ELEONORA LAST CARDS MEDIA QUERIES*/
+@media only screen and (max-width: 360px) {
+  .last-cards-section {
+    max-width: 360px;
+  }
+
+  .wrapper-lottery-container,
+  .lottery-central-container {
+    padding: 20px;
+  }
+
+  .lottery-card-contents {
+    width: 100%;
+  }
+
+  .cake-card-button-container.one {
+    grid-template-areas:
+      "a b"
+      "c d"
+      "e f";
+  }
+  .central-lottery-cards-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .cake-central-card-up-first-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cake-card-button-container.one {
+    gap: 0px;
+  }
+
+  .cake-card-data-container {
+    padding: 12px 16px;
+  }
+
+  .cake-central-up-title {
+    font-size: 24px;
+  }
+
+  .connect-wallet-main-title,
+  .lottery-central-title,
+  .lottery-main-card-title,
+  .animated-num.main-title {
+    font-size: 32px;
+  }
+
+  .cake-grid-title {
+    font-size: 14px;
+  }
+
+  h2.cake-data-numbers,
+  span.cake-data-numbers,
+  span.animated-num {
+    font-size: 16px;
+  }
+
+  .lottery-subtitle.third {
+    margin-bottom: 20px;
+  }
+}
