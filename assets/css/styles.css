@@ -3,6 +3,7 @@
 @import url(root.css);
 @import url(root2.css);
 @import url(buttons.css);
+
 /* =========== SCROLL BAR =========== */
 
 /* STYLE CSS*/
@@ -10,6 +11,7 @@
 @import url(carousel/carousel.css);
 @import url(miriana-cards.css);
 @import url(eleonora-cards.css);
+@import url(footer.css);
 
 /* STYLE MEDIA QUERIES */
 @import url(navbar-mq-desktop.css);
