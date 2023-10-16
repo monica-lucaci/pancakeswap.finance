@@ -15,7 +15,8 @@
 
 /* ========== INNER ========== */
 .hero-section .inner {
-    padding-top: 48px;
+    /* padding-top: 48px; */
+    padding-top: 144px;
     padding-bottom: 48px;
 
     padding-left: 24px;
