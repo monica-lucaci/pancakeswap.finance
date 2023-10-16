@@ -2,22 +2,29 @@
 @import url(root2.css);
 @import url(root.css);
 @import url(buttons.css);
+
+/* STYLE CSS*/
 @import url(navbarMonica.css);
-@import url(navbar-mq-smartphone.css);
-@import url(navbar-mq-tablet.css);
+@import url(carousel/carousel.css);
+
+/* STYLE MEDIA QUERIES */
 @import url(navbar-mq-desktop.css);
+@import url(navbar-mq-tablet.css);
+@import url(navbar-mq-smartphone.css);
 
+@import url(carousel/carousel-mq.css);
 
-
-/* =========== SCROLL BAR =========== */
+/* SCROLL BAR */
 ::-webkit-scrollbar {
-  width: 8px;
+    width: 8px;
 }
+
 ::-webkit-scrollbar-thumb {
-  background: #7a6eaa;
-  border-radius: 8px;
+    background: #7a6eaa;
+    border-radius: 8px;
 }
+
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px -2px #ffffff;
-  border-radius: 1px;
+    box-shadow: inset 0 0 5px -2px #ffffff;
+    border-radius: 1px;
 }
