@@ -1,4 +1,3 @@
-
 @import url(reset.css);
 @import url(root.css);
 @import url(root2.css);
@@ -16,11 +15,14 @@
 /* STYLE MEDIA QUERIES */
 @import url(navbar-mq-desktop.css);
 @import url(navbar-mq-tablet.css);
-@import url(navbar-mq-smartphone.css);
-
 @import url(carousel/carousel-mq.css);
-@import url(./assets/css/mq-tablet-lc.css)
-@import url(./assets/css/mq-smartphone-lc.css)
+@import url(mq-tablet-lc.css);
+@import url(navbar-mq-smartphone.css);
+@import url(mq-smartphone-lc.css);
+
+
+
+
 /* SCROLL BAR */
 ::-webkit-scrollbar {
   width: 8px;
@@ -32,12 +34,11 @@
 }
 
 ::-webkit-scrollbar-track {
-
   box-shadow: inset 0 0 5px -2px #ffffff;
   border-radius: 1px;
 }
 
-    box-shadow: inset 0 0 5px -2px #ffffff;
-    border-radius: 1px;
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px -2px #ffffff;
+  border-radius: 1px;
 }
-
