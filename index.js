@@ -85,6 +85,7 @@ inputChckBx.forEach((checkbox, index) => {
 });
 
 const darkModeToggle = document.getElementById('darkModeToggle');
+
 const body = document.body;
 
 darkModeToggle.addEventListener('change', () => {
@@ -95,3 +96,16 @@ darkModeToggle.addEventListener('change', () => {
   }
 });
 //change theme
+
+// const darkModeToggles = document.querySelectorAll('.darkModeToggle');
+// const body = document.getElementById('body'); // Assuming your content is inside an element with the 'body' id
+
+// darkModeToggles.forEach((toggle, index) => {
+//   toggle.addEventListener('change', () => {
+//     if (toggle.checked) {
+//       body.setAttribute('data-theme', 'dark');
+//     } else {
+//       body.setAttribute('data-theme', 'light');
+//     }
+//   });
+// });
