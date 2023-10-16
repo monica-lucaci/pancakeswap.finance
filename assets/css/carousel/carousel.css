@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
 
-    background: linear-gradient(139.73deg, #e6fdff 0%, #f3efff 100%);
+    background: var(--colors-hero-section-bg);
 
     padding: 48px 0px;
 }
@@ -1461,7 +1461,7 @@
 
 .hero-section .curve-light svg {
     display: block;
-    fill: #280d5f;
+    fill: var(--colors-hero-section-bg2)
 }
 
 
@@ -1470,12 +1470,12 @@
     width: 100%;
     bottom: -3px;
     z-index: -1;
+    background: var(--colors-hero-section-bg2);
 }
 
 .hero-section .curve-dark svg {
-    display: absolute;
-    fill: #280d5f;
-    /* for now */
+    position: absolute;
+    fill: var(--colors-hero-section-bg2);
     display: none;
 }
 
