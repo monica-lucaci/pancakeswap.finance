@@ -12,7 +12,6 @@
 
 .footer-container {
   width: 1200px;
-  /* font: var(--font-paragraph); */
   display: flex;
   flex-direction: column;
 }
@@ -31,25 +30,9 @@
   align-items: flex-start;
 }
 
-/* .listaa {
-  list-style-type: none;
-  color: rgb(255, 241, 241);
-  margin-bottom: 8px;
-  box-sizing: border-box;
-} */
-/* .listaa a {
-  text-decoration: none;
-  color: var(--accent-alert-soft);
-} */
-/* .listaa > a:hover {
-  text-decoration: underline;
-} */
-
 .lista {
   font: 16px Kanit, sans-serif;
   list-style-type: none;
-  /* color: rgb(255, 241, 241); */
-  /* color: var(--colors-white); */
   margin-bottom: 8px;
   box-sizing: border-box;
 }
@@ -59,8 +42,6 @@
 }
 .lista > a {
   text-decoration: none;
-  /* color: rgb(255, 255, 255); */
-  /* color: var(--colors-white); */
   color: #f4eeff;
 }
 .lista > a:hover {
@@ -104,7 +85,6 @@
 
 .tele-lang a {
   color: var(--colors-textSubtle);
-  /* background: rgb(60, 58, 58); */
   background: #27262C;
   text-decoration: none;
   color: #b8add2;
@@ -170,7 +150,6 @@
 
 .other-lang button {
   color: var(--colors-textSubtle);
-  /* background: rgb(60, 58, 58); */
   background: #27262C;
   border: none;
   color: #b8add2;
@@ -205,18 +184,13 @@
 }
 
 .soldi {
-  /* display: inline; */
-  /* color: rgba(199, 180, 180, 0.63); */
-  /* color: var(--colors-textSubtle); */
   color: #b8add2;
   padding-top: 5px;
   font-weight: bolder;
 }
 
 .valore > a {
-  /* display: inline; */
   display: flex;
-  /* color: rgba(199, 180, 180, 0.63); */
   color: var(--colors-textSubtle);
 }
 
