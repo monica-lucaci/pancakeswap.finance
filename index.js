@@ -2,9 +2,11 @@
 
 const bannerBtn = document.querySelector(".banner-button");
 const bannerWrapper = document.querySelector(".banner-wrapper");
+const heroSectionMarginSwitch = document.querySelector(".hero-section .inner ");
 
 bannerBtn.addEventListener("click", () => {
   bannerWrapper.style.display = "none";
+  heroSectionMarginSwitch.style.paddingTop = "57px";
 });
 
 //confettiq-libreria
@@ -46,8 +48,6 @@ containers.forEach((container, index) => {
 //cambia il sole a luna
 //cambia bg a verde quando check
 
-
-
 const lunaSvg = document.querySelector(".moon_svg_copy");
 const divSole = document.querySelector(".modal-content-item_chcbx_content");
 const divSoleChild = document.querySelector(".darkMode_chckbx_sun");
@@ -75,7 +75,8 @@ inputChckBx.forEach((checkbox, index) => {
       // controlla se esiste
       if (checkbox.checked) {
         // bg verde
-        chckContainers[index - 1].style.backgroundColor = "var(--colors-success)";
+        chckContainers[index - 1].style.backgroundColor =
+          "var(--colors-success)";
       } else {
         //  unchecked torna come prima;
         chckContainers[index - 1].style.backgroundColor = "";
@@ -84,14 +85,14 @@ inputChckBx.forEach((checkbox, index) => {
   });
 });
 
-const darkModeToggle = document.getElementById('darkModeToggle');
+const darkModeToggle = document.getElementById("darkModeToggle");
 const body = document.body;
 
-darkModeToggle.addEventListener('change', () => {
+darkModeToggle.addEventListener("change", () => {
   if (darkModeToggle.checked) {
-    body.setAttribute('data-theme', 'dark');
+    body.setAttribute("data-theme", "dark");
   } else {
-    body.setAttribute('data-theme', 'light');
+    body.setAttribute("data-theme", "light");
   }
 });
 //change theme
