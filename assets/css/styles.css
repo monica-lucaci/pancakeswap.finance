@@ -16,12 +16,11 @@
 @import url(navbar-mq-desktop.css);
 @import url(navbar-mq-tablet.css);
 @import url(carousel/carousel-mq.css);
+@import url(mq-firstcards-tablet.css);
+@import url(mq-firstcards-mobile.css);
 @import url(mq-tablet-lc.css);
 @import url(navbar-mq-smartphone.css);
 @import url(mq-smartphone-lc.css);
-
-
-
 
 /* SCROLL BAR */
 ::-webkit-scrollbar {
