@@ -1,0 +1,38 @@
+/* <--- SCREEN SIZE - TABLET ---> */
+
+@media only screen and (max-width: 820px) {
+    /* <------ CAROUSEL ------> */
+
+
+    /* SWIPER SLIDE 1 */
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 .content .right .background-img {
+        margin-top: 38px;
+    }
+
+    .hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 .content .right .background-img>span:first-child img {
+        border-radius: 31px;
+    }
+
+    /* CTA */
+    .hero-section .inner .cta {
+        flex-direction: column-reverse;
+    }
+
+
+    .hero-section .inner .cta .left {
+        text-align: center;
+    }
+
+    .hero-section .inner .cta .right {
+        max-width: 50%;
+        align-self: center;
+    }
+
+    .hero-section .inner .cta .left .buttons {
+        align-self: center;
+    }
+
+    .hero-section .inner .cta .left .description h2 {
+        font-size: 40px;
+    }
+}

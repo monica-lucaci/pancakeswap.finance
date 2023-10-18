@@ -1,0 +1,29 @@
+/* DEFAULT */
+@import url(reset.css);
+@import url(root.css);
+
+/* STYLES CSS - COMPONENTS */
+@import url(/assets/css/styles/components/scrollbar.css);
+@import url(/assets/css/styles/components/buttons.css);
+@import url(/assets/css/styles/components/navbar.css);
+@import url(/assets/css/styles/components/carousel.css);
+@import url(/assets/css/styles/components/first-cards.css);
+@import url(/assets/css/styles/components/last-cards.css);
+@import url(/assets/css/styles/components/footer.css);
+
+/* STYLES CSS - MEDIA QUERIES - DESKTOP */
+@import url(/assets/css/styles/media-queries/desktop/navbar-desktop.css);
+
+/* STYLES CSS - MEDIA QUERIES - TABLET */
+@import url(/assets/css/styles/media-queries/tablet/navbar-tablet.css);
+@import url(/assets/css/styles/media-queries/tablet/carousel-tablet.css);
+@import url(/assets/css/styles/media-queries/tablet/firstcards-tablet.css);
+@import url(/assets/css/styles/media-queries/tablet/last-cards-tablet.css);
+@import url(/assets/css/styles/media-queries/tablet/footer-tablet.css);
+
+/* STYLES CSS - MEDIA QUERIES - MOBILE */
+@import url(/assets/css/styles/media-queries/mobile/navbar-mobile.css);
+@import url(/assets/css/styles/media-queries/mobile/carousel-mobile.css);
+@import url(/assets/css/styles/media-queries/mobile/first-cards-mobile.css);
+@import url(/assets/css/styles/media-queries/mobile/last-cards-mobile.css);
+@import url(/assets/css/styles/media-queries/mobile/footer-mobile.css);

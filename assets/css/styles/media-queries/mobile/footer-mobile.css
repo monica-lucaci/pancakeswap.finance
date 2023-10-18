@@ -1,0 +1,13 @@
+@media screen and (max-width: 360px) {
+    .footer3 {
+        display: block;
+    }
+
+    .seconda-parte {
+        justify-content: space-between;
+    }
+
+    .footer_darkmode-language {
+        margin-bottom: 20px;
+    }
+}
