@@ -38,17 +38,32 @@
   --colors-textSubtle: #7a6eaa;
   --colors-disabled: #e9eaeb;
   --colors-gradientBubblegum: linear-gradient(139.73deg, #e5fdff, #f3efff);
-  --colors-gradientInverseBubblegum: linear-gradient(139.73deg,
-      #f3efff,
-      #e5fdff);
+  --colors-gradientInverseBubblegum: linear-gradient(
+    139.73deg,
+    #f3efff,
+    #e5fdff
+  );
   --colors-gradientCardHeader: linear-gradient(111.68deg, #f2ecf2, #e8f2f6);
   --colors-gradientBlue: linear-gradient(180deg, #a7e8f1, #94e1f2);
   --colors-gradientViolet: linear-gradient(180deg, #e2c9fb, #cdb8fa);
   --colors-gradientVioletAlt: linear-gradient(180deg, #cbd7ef, #9a9fd0);
   --colors-gradientGold: linear-gradient(180deg, #ffd800, #fdab32);
   --colors-gradientBold: linear-gradient(#53dee9, #7645d9);
-  --colors-hero-section-bg: linear-gradient(139.73deg, #e6fdff 0%, #f3efff 100%);
+  --colors-hero-section-bg: linear-gradient(
+    139.73deg,
+    #e6fdff 0%,
+    #f3efff 100%
+  );
   --colors-hero-section-bg2: white;
+  --colors-bg-last-cards: linear-gradient(
+    rgb(111, 182, 241) 0%,
+    rgb(234, 242, 246) 100%
+  );
+  --colors-bg-last-cards-second: #faf9fa;
+  --colors-bg-last-cards-third: linear-gradient(
+    rgb(118, 69, 217) 0%,
+    rgb(81, 33, 177) 100%
+  );
 
   /* FONT */
   --font-paragraph: 400 16px / 1.5 "Kanit";
@@ -100,23 +115,36 @@
   --colors-textSubtle: #7a6eaa;
   --colors-disabled: #e9eaeb;
   --colors-gradientBubblegum: linear-gradient(139.73deg, #e5fdff, #f3efff);
-  --colors-gradientInverseBubblegum: linear-gradient(139.73deg,
-      #f3efff,
-      #e5fdff);
+  --colors-gradientInverseBubblegum: linear-gradient(
+    139.73deg,
+    #f3efff,
+    #e5fdff
+  );
   --colors-gradientCardHeader: linear-gradient(111.68deg, #f2ecf2, #e8f2f6);
   --colors-gradientBlue: linear-gradient(180deg, #a7e8f1, #94e1f2);
   --colors-gradientViolet: linear-gradient(180deg, #e2c9fb, #cdb8fa);
   --colors-gradientVioletAlt: linear-gradient(180deg, #cbd7ef, #9a9fd0);
   --colors-gradientGold: linear-gradient(180deg, #ffd800, #fdab32);
   --colors-gradientBold: linear-gradient(#53dee9, #7645d9);
-  --colors-hero-section-bg: linear-gradient(139.73deg, #e6fdff 0%, #f3efff 100%);
+  --colors-hero-section-bg: linear-gradient(
+    139.73deg,
+    #e6fdff 0%,
+    #f3efff 100%
+  );
   --colors-hero-section-bg2: white;
-
-
+  --colors-bg-last-cards: linear-gradient(
+    rgb(111, 182, 241) 0%,
+    rgb(234, 242, 246) 100%
+  );
+  --colors-bg-last-cards-second: #faf9fa;
+  --colors-bg-last-cards-third: linear-gradient(
+    rgb(118, 69, 217) 0%,
+    rgb(81, 33, 177) 100%
+  );
 }
 
 [data-theme="dark"] {
-  --colors-hero-section-bg2:  #191326;
+  --colors-hero-section-bg2: #191326;
   --colors-white: #fff;
   --colors-failure: #ed4b9e;
   --colors-failure33: #ed4b9e33;
@@ -155,14 +183,36 @@
   --colors-textSubtle: #b8add2;
   --colors-disabled: #524b63;
   --colors-gradientBubblegum: linear-gradient(139.73deg, #313d5c, #3d2a54);
-  --colors-gradientInverseBubblegum: linear-gradient(139.73deg,
-      #3d2a54,
-      #313d5c);
+  --colors-gradientInverseBubblegum: linear-gradient(
+    139.73deg,
+    #3d2a54,
+    #313d5c
+  );
   --colors-gradientCardHeader: linear-gradient(166.77deg, #3b4155, #3a3045);
   --colors-gradientBlue: linear-gradient(180deg, #00707f, #19778c);
   --colors-gradientViolet: linear-gradient(180deg, #6c4999, #6d4db2);
   --colors-gradientVioletAlt: linear-gradient(180deg, #434575, #66578d);
   --colors-gradientGold: linear-gradient(180deg, #ffd800, #fdab32);
   /* --colors-gradientBold: linear-gradie */
-  --colors-hero-section-bg: radial-gradient(103.12%50%at 50%50%, #21193a 0%, #191326 100%);
+  --colors-hero-section-bg: radial-gradient(
+    103.12%50%at 50%50%,
+    #21193a 0%,
+    #191326 100%
+  );
+  --colors-bg-last-cards: radial-gradient(
+    103.12%50%at 50%50%,
+    #21193a 0%,
+    #191326 100%
+  );
+
+  --colors-bg-last-cards-second: radial-gradient(
+    103.12%50%at 50%50%,
+    #21193a 0%,
+    #191326 100%
+  );
+  --colors-bg-last-cards-third: radial-gradient(
+    103.12%50%at 50%50%,
+    #21193a 0%,
+    #191326 100%
+  );
 }

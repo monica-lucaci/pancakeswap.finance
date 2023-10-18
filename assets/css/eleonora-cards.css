@@ -20,7 +20,7 @@
   z-index: 1;
   padding: 48px 0px;
   display: flex;
-  background: linear-gradient(180deg, #6fb6f1 0%, #eaf2f6 100%);
+  background: var(--colors-bg-last-cards);
 }
 .intermediate-central-lottery-cont {
   padding-top: 48px;
@@ -316,7 +316,7 @@
   z-index: 1;
   display: flex;
   padding: 48px 0px;
-  background: #faf9fa;
+  background: var(--colors-bg-last-cards-second);
 }
 
 .cake-central-card-up-first-container {
@@ -431,7 +431,7 @@
 }
 
 .connect-wallet-second-container {
-  background: linear-gradient(rgb(118, 69, 217) 0%, rgb(81, 33, 177) 100%);
+  background: var(--colors-bg-last-cards-third);
   display: flex;
   position: relative;
   flex-direction: column;
@@ -548,4 +548,3 @@
 .main-button.connect-wallet {
   margin-top: 24px;
 }
-
