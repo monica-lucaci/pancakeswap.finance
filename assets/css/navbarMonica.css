@@ -10,9 +10,12 @@
   box-sizing: border-box;
 }
 
+
 .hidden {
   display: none;
 }
+
+
 
 .nav-wrapper {
   position: fixed;
@@ -585,7 +588,7 @@
 /* modal window and overlay*/
 
 .modal {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -944,7 +947,7 @@
     rgba(0, 0, 0, 0.05) 0px 1px 1px;
   border: 1px solid #e7e3eb;
   z-index: 100;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -1650,7 +1653,7 @@
 /*Overlay*/
 
 .overlay {
-  position: absolute;
+position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -1684,3 +1687,6 @@
 /* .navbar-mq-content_item_links {
   display: none;
 } */
+
+
+ 

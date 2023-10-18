@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Montserrat:ital,wght@1,400;1,600&family=Prata&family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Montserrat:ital,wght@1,400;1,600&family=Prata&family=Roboto:wght@400;700&display=swap");
 
 .footer-wrapper {
   display: flex;
@@ -6,7 +6,7 @@
   margin: 0px;
   padding-top: 48px;
   padding-bottom: 20px;
-  background: #27262C;
+  background: #27262c;
   overflow: hidden;
 }
 
@@ -31,14 +31,18 @@
 }
 
 .lista {
-  font: 16px Kanit, sans-serif;
+  font:
+    16px Kanit,
+    sans-serif;
   list-style-type: none;
   margin-bottom: 8px;
   box-sizing: border-box;
 }
 .lista:first-child {
-  font: 16px Kanit, sans-serif;
-  color: #9A6AFF;
+  font:
+    16px Kanit,
+    sans-serif;
+  color: #9a6aff;
 }
 .lista > a {
   text-decoration: none;
@@ -47,7 +51,6 @@
 .lista > a:hover {
   text-decoration: underline;
 }
-
 
 .footer2 {
   margin-top: 10px;
@@ -85,7 +88,7 @@
 
 .tele-lang a {
   color: var(--colors-textSubtle);
-  background: #27262C;
+  background: #27262c;
   text-decoration: none;
   color: #b8add2;
 }
@@ -108,7 +111,7 @@
   border: none;
 }
 
-.lang-icon{
+.lang-icon {
   cursor: pointer;
 }
 
@@ -150,7 +153,7 @@
 
 .other-lang button {
   color: var(--colors-textSubtle);
-  background: #27262C;
+  background: #27262c;
   border: none;
   color: #b8add2;
   font-size: 16px;
@@ -221,7 +224,7 @@
   align-items: center;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -231,8 +234,7 @@ a{
   border-radius: 50%;
   transform: scale(100%);
   transition: all 0.2s cubic-bezier(0.5, 0, 0.2, 3);
-  background: linear-gradient(to bottom, #53DEE9, var(--colors-primary));
-
+  background: linear-gradient(to bottom, #53dee9, var(--colors-primary));
 }
 .bunny-icon:hover {
   transform: scale(110%);
@@ -251,13 +253,23 @@ a{
   align-items: center;
   gap: 24px;
 }
-
+@media screen and (max-width: 360px) {
+  .footer3 {
+    display: block;
+  }
+  .seconda-parte {
+    justify-content: space-between;
+  }
+  .footer_darkmode-language {
+    margin-bottom: 20px;
+  }
+}
 
 @media screen and (max-width: 576px) {
   .footer1 {
     flex-direction: column;
     align-items: flex-start;
-    text-align:left;
+    text-align: left;
     gap: 40px;
     padding: 40px 16px;
   }
@@ -273,12 +285,12 @@ a{
     padding: 40px 16px;
   }
 }
- 
+
 @media screen and (min-width: 577px) and (max-width: 991px) {
   .footer1 {
     flex-direction: column;
     align-items: flex-start;
-    text-align:left;
+    text-align: left;
     gap: 40px;
     padding: 56px 40px 32px;
   }
@@ -294,4 +306,3 @@ a{
     padding: 56px 40px 32px;
   }
 }
-

@@ -1,7 +1,4 @@
 @media only screen and (max-width: 820px) {
-  .first-cards-section {
-    background-color: var(--colors-background);
-  }
 
   .section2,
   .section3,
@@ -11,7 +8,7 @@
 
   .trade {
     border-radius: 24px;
-    background: var(--colors-backgroundAlt);
+
     width: 770px;
     box-sizing: border-box;
     padding: 48px 24px 24px;
@@ -36,7 +33,6 @@
 
   .first-column {
     flex-basis: calc(33.3% - 48px);
-    height: 246px;
     padding: 12px;
     display: flex;
     justify-content: space-between;
@@ -55,5 +51,13 @@
 .subtitleMF1 {
   color: var(--colors-primary);
 }
+
+.img-one, .img-two, .img-three {
+  align-self: flex-start;
+}
+#trade-section{
+  flex-direction: column-reverse;
+}
+
 }
 

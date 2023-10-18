@@ -1,9 +1,4 @@
-.first-cards-section {
-  background-color: var(--colors-background);
-}
-
 .section2 {
-  background-color: var(--colors-gradientBubblegum);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,7 +46,7 @@
 .trade {
   width: 1152px;
   border-radius: 24px;
-  background: var(--colors-backgroundAlt);
+  background: var(--colors-gradientBubblegum);
   box-sizing: border-box;
   padding: 48px 24px 24px;
   min-height: 360px;
@@ -241,4 +236,9 @@
   width: 100em;
   font-family: Kanit;
   z-index: -1;
+  margin-bottom: 48px;
+}
+
+.body-content-wrapper {
+  background-color: var(--colors-hero-section-bg2);
 }

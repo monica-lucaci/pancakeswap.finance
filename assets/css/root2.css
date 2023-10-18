@@ -65,6 +65,9 @@
     rgb(81, 33, 177) 100%
   );
 
+  --colors-text-subtle-cards: #7a6eaa;
+
+
   /* FONT */
   --font-paragraph: 400 16px / 1.5 "Kanit";
   --font-list-footer: 600 16px / 1.5 "Kanit";
@@ -77,6 +80,7 @@
 }
 
 [data-theme="light"] {
+  --colors-text-subtle-cards: #7a6eaa;
   --colors-white: #fff;
   --colors-failure: #ed4b9e;
   --colors-failure33: #ed4b9e33;
@@ -144,6 +148,7 @@
 }
 
 [data-theme="dark"] {
+  --colors-text-subtle-cards:  #383241;
   --colors-hero-section-bg2: #191326;
   --colors-white: #fff;
   --colors-failure: #ed4b9e;

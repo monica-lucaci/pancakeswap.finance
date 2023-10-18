@@ -118,17 +118,17 @@
 }
 
 .lottery-central-title {
-  color: var(--colors-text);
+  color: #280d5f;
   font: var(--font-small-title);
 }
 
 .lottery-subtitle.first {
-  color: var(--colors-textSubtle);
+  color: var( --colors-text-subtle-cards);
   font: var(--font-paragraph);
 }
 
 .lottery-subtitle.second {
-  color: var(--colors-textSubtle);
+  color: var(--colors-text-subtle-cards);
   font: var(--font-paragraph);
   margin-bottom: 24px;
 }
