@@ -1,0 +1,9 @@
+@media only screen and (max-width: 360px) {
+    .trade {
+        max-width: 330px;
+    }
+
+    .subtitleMF1+svg {
+        fill: var(--colors-primary);
+    }
+}

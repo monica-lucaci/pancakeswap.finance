@@ -1,0 +1,1501 @@
+/* ========== HERO SECTION ========== */
+.hero-section {
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--colors-hero-section-bg);
+
+    padding: 48px 0px;
+}
+
+/* ========== INNER ========== */
+.hero-section .inner {
+    /* padding-top: 48px; */
+    padding-top: 147px;
+    padding-bottom: 48px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+    max-width: 1200px;
+
+}
+
+/* ========== CAROUSEL CONTAINER ========== */
+.hero-section .inner .carousel-container {
+    padding-top: 0px;
+    margin-top: -32px;
+    margin-bottom: 30px;
+    height: 232px;
+    position: relative;
+    padding: 20px;
+}
+
+.hero-section .inner .carousel-container::before {
+    inset: 20px;
+    content: "";
+    border-radius: 32px;
+    position: absolute;
+    background: -webkit-linear-gradient(top, rgb(118, 69, 217) 0%, rgb(69, 42, 122) 100%);
+}
+
+/* ========== CAROUSEL ========== */
+@keyframes carousel-opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.hero-section .inner .carousel-container .carousel {
+    position: relative;
+    overflow: visible;
+    opacity: 0;
+    animation: 0.3s ease-in-out 0.7s 1 normal forwards running carousel-opacity;
+
+    /* check below */
+    margin-left: auto;
+    margin-right: auto;
+
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    display: block;
+}
+
+/* ========== SWIPER WRAPPER & STYLE ========== */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    box-sizing: content-box;
+}
+
+
+
+/* ========== ALL SLIDES HERE ========== */
+
+
+
+/*                                      > SWIPER SLIDE 1 - PancakeSwap X LINEA */
+/* CONTENT LEFT */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 {
+    width: 1152px;
+    position: relative;
+    border-radius: 32px;
+    width: 100%;
+    max-height: max-content;
+    overflow: visible;
+
+    background: linear-gradient(rgba(0, 160, 173, 0.2) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.85) 100%);
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 .content {
+    padding: 25px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 .content .left {
+    z-index: 2;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    /* position: relative; */
+    height: 142px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 .content .left .logos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 .content .left .title {
+    padding-right: 100px;
+    position: relative;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 98%;
+    letter-spacing: 0.01em;
+    color: rgb(55, 255, 255);
+    margin-top: 0px;
+    margin-bottom: 10px;
+    z-index: 2;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 .content .left .sub-title {
+    color: rgb(55, 255, 255);
+    font-family: Kanit;
+    font-size: 19.847px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 98%;
+    margin-bottom: 10px;
+    z-index: 2;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 .content .left .main-button {
+    z-index: 100;
+}
+
+/* CONTENT RIGHT */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 .content .right>span:first-child {
+    right: 30px;
+    top: -20px;
+    z-index: 2;
+    position: absolute !important;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 .content .right {
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    right: 0px;
+    bottom: -2px;
+    z-index: 1;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 .content .right .background-img {
+    overflow: hidden;
+    position: absolute;
+    bottom: auto;
+    height: 100%;
+    right: 0px;
+    top: -2px;
+    border-radius: 32px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-1 .content .right .background-img>span:first-child {
+    right: 0px;
+    top: 22px;
+    position: relative !important;
+}
+
+
+
+/*                                      > SWIPER SLIDE 2 - Perpetual Futures */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-2 {
+    width: 1152px;
+    overflow: visible;
+    position: relative;
+    border-radius: 32px;
+    width: 100%;
+    max-height: max-content;
+
+    background: linear-gradient(to bottom, rgb(118, 69, 217) 0%, rgb(69, 42, 122) 100%);
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-2 .content {
+    padding: 25px;
+}
+
+/* CONTENT LEFT */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-2 .content .left {
+    z-index: 1;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    height: 142px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-2 .content .left .title {
+    font-size: 20px;
+    margin-bottom: 8px;
+    letter-spacing: unset;
+    background: linear-gradient(rgb(255, 216, 0), rgb(235, 140, 0));
+    line-height: 1.1;
+    filter: unset;
+    background-clip: unset;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    font-style: normal;
+    z-index: 2;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-2 .content .left .sub-title {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 16px;
+    font-weight: 600;
+    background: linear-gradient(to bottom, rgb(118, 69, 217) 0%, rgb(69, 42, 122) 100%);
+    line-height: 1.1;
+    -webkit-text-stroke: 6px transparent;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+    text-transform: uppercase;
+    background-clip: unset;
+    -webkit-background-clip: text;
+    z-index: 2;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-2 .content .left .main-button svg {
+    margin-left: 4px;
+}
+
+/* CONTENT RIGHT */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-2 .content .right {
+    position: absolute;
+    min-height: 100%;
+    right: 0px;
+    bottom: -6px;
+}
+
+
+
+/*                                      > SWIPER SLIDE 3 - 10% trading rebate to be earned */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 {
+    width: 1152px;
+    background: linear-gradient(64.41deg, rgba(214, 126, 10, 0.26) 44.37%, rgba(255, 235, 55, 0) 102.8%), radial-gradient(55.22% 134.13% at 57.59% 0%, rgb(245, 223, 142) 0%, rgb(252, 198, 49) 33.21%, rgb(255, 157, 0) 79.02%);
+    overflow: visible;
+    position: relative;
+    border-radius: 32px;
+    width: 100%;
+    max-height: max-content;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content {
+    padding: 24px;
+}
+
+/* CONTENT LEFT */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .left {
+    z-index: 3;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    /* position: relative; */
+    height: 144px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .left .title {
+    font-size: 21px;
+    width: 100%;
+
+    font-weight: 600;
+    line-height: 110%;
+    font-feature-settings: "liga" 0;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+    z-index: 3;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .left .sub-title {
+    margin-bottom: 12px;
+    font-size: 40px;
+    padding-right: 0px;
+
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+
+    line-height: 110%;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 2px 2px;
+    z-index: 3;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .left .buttons {
+    gap: 8px;
+    display: flex;
+    flex-flow: column;
+    flex-direction: row;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .left .buttons .main-button {
+    padding: 0px 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .left .buttons .main-button svg {
+    margin-left: 4px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .left .buttons .secondary-button {
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .left .buttons .secondary-button .link-svg {
+    margin-left: 4px;
+}
+
+/* CONTENT RIGHT */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .right {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .right>span:nth-child(1) {
+    right: 55px;
+    bottom: 0px;
+    position: absolute !important;
+}
+
+/* span:nth-child(2,3) KEYFRAME  */
+@keyframes circle {
+
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    50% {
+        transform: translate(-5px, 5px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .right>span:nth-child(2) {
+    top: 1%;
+    right: -2%;
+    position: absolute !important;
+    animation: 5.5s ease-in-out 0s infinite normal none running circle;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .right>span:nth-child(3) {
+    right: 28%;
+    bottom: 18%;
+    animation: 2.5s ease-in-out 0s infinite normal none running circle;
+    position: absolute !important;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .right>span:nth-child(4) {
+    right: 0px;
+    bottom: 0px;
+    position: absolute !important;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-3 .content .right>span:nth-child(5) {
+    top: -30%;
+    left: 55%;
+    animation: 3.5s ease-in-out 0s infinite normal none running circle;
+    position: absolute !important;
+}
+
+
+
+/*                                      > SWIPER SLIDE 4 - Pancake X ERA*/
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-4 {
+    width: 1152px;
+    background: linear-gradient(rgb(204, 163, 130) 0%, rgb(157, 195, 143) 49.77%, rgb(159, 204, 207) 100%);
+    overflow: visible;
+    position: relative;
+    border-radius: 32px;
+    width: 100%;
+    max-height: max-content;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-4 .content {
+    padding: 24px;
+}
+
+/* CONTENT LEFT */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-4 .content .left {
+    position: relative;
+    width: 100%;
+    height: 144px;
+    z-index: 3;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-4 .content .left .logos {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-4 .content .left .logos .divider {
+    height: 15px;
+    width: 1px;
+    background-color: #fff
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-4 .content .left .title {
+    font-size: 32px;
+    margin-bottom: 4px;
+    width: 100%;
+    position: relative;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 98%;
+    padding-right: 80px;
+    color: #fff;
+    z-index: 3;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-4 .content .left .sub-title {
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 2;
+
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-4 .content .left .main-button svg {
+    margin-left: 4px;
+
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-4 .content .left .main-button {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset;
+
+}
+
+/* CONTENT RIGHT */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-4 .content .right {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-4 .content .right>span:nth-child(1) {
+    right: 27px;
+    bottom: 0px;
+    position: absolute !important;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-4 .content .right>span:nth-child(2) {
+    right: 230px;
+    top: -10%;
+    position: absolute !important;
+}
+
+
+/*                                      > SWIPER SLIDE 5 - Pancake X  ARBITRUM */
+/* FIX text shadow */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-5 {
+    width: 1152px;
+    background: linear-gradient(0deg, rgb(33, 49, 71) 0%, rgb(33, 49, 71) 100%), rgb(0, 0, 0);
+    position: relative;
+    border-radius: 32px;
+    width: 100%;
+    max-height: max-content;
+    overflow: visible;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-5 .content {
+    padding: 24px;
+}
+
+/* CONTENT LEFT */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-5 .content .left {
+    position: relative;
+    width: 100%;
+    height: 144px;
+    z-index: 4;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-5 .content .left .logos {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-5 .content .left .logos .divider {
+    height: 15px;
+    width: 1px;
+    background-color: #fff;
+}
+
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-5 .content .left .title {
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 101%;
+    font-feature-settings: "liga" 0;
+    text-shadow: rgba(0, 0, 0, 0.2) 1.27551px 1.27551px 1.02041px;
+    color: white;
+    padding-right: 100px;
+    /* background: linear-gradient(0deg, rgb(53, 61, 137) 100%, rgb(42, 50, 75) 0%); */
+    -webkit-text-stroke: 4px transparent;
+    margin: 5px 0px 16px;
+
+    font-size: 25px;
+    margin-left: -4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    z-index: 999;
+    position: relative;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-5 .content .left .sub-title {
+    padding-right: 100px;
+    position: relative;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 98%;
+    letter-spacing: 0.01em;
+    text-shadow: rgba(0, 0, 0, 0.2) 1.27551px 1.27551px 1.02041px;
+    color: white;
+    /* background: linear-gradient(0deg, rgb(53, 61, 137) 100%, rgb(42, 50, 75) 0%); */
+    -webkit-text-stroke: 4px transparent;
+
+    font-size: 20px;
+    margin-left: -4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-5 .content .left .link {
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: capitalize;
+    margin-right: 4px;
+    font-size: 16px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-5 .content .right {
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    right: 0px;
+    bottom: -2px;
+    z-index: 3;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-5 .content .right>span:nth-child(1) {
+    right: 229px;
+    bottom: 13px;
+
+    z-index: 3;
+    position: absolute !important;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-5 .content .right .background-img {
+    bottom: auto;
+    height: 100%;
+    right: 0px;
+    top: -2px;
+    position: absolute;
+
+    overflow: hidden;
+    border-radius: 32px;
+    z-index: 2;
+}
+
+
+/*                                      > SWIPER SLIDE 6 - Pancake X  GALAXE */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 {
+    width: 1152px;
+    background: linear-gradient(130.14deg, rgba(0, 90, 225, 0.2) 15.11%, rgba(87, 221, 218, 0.2) 82.57%), linear-gradient(249.98deg, rgb(83, 222, 233) 32.16%, rgb(49, 208, 170) 91.27%), linear-gradient(117.08deg, rgba(99, 255, 254, 0.2) 11.95%, rgba(54, 210, 179, 0.2) 96.2%), linear-gradient(182.28deg, rgba(104, 220, 233, 0.8) -44.21%, rgba(104, 220, 233, 0) 87.24%);
+    position: relative;
+    border-radius: 32px;
+    width: 100%;
+    max-height: max-content;
+    overflow: visible;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content {
+    padding: 24px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .left {
+    z-index: 4;
+    height: 144px;
+    position: relative;
+    width: 100%;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .left .logos {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .left .logos .divider {
+    height: 15px;
+    width: 1px;
+    background-color: #fff;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .left .title {
+    font-size: 32px;
+    margin-bottom: 4px;
+
+    position: relative;
+    font-family: Kanit;
+    font-style: normal;
+    line-height: 98%;
+    letter-spacing: 0.01em;
+    font-feature-settings: "liga" 0;
+    font-weight: 600;
+    background: linear-gradient(166.02deg, rgb(255, 178, 55) -5.1%, rgb(255, 235, 55) 75.24%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .left .title::after {
+    font-family: Kanit;
+    font-style: normal;
+    line-height: 98%;
+    font-weight: 600;
+    font-size: 32px;
+    box-sizing: border-box;
+
+    letter-spacing: 0.01em;
+    font-feature-settings: "liga" 0;
+    -webkit-text-fill-color: transparent;
+    content: "Traverse the Treasure Islands on Galxe now!";
+    text-shadow: rgba(0, 0, 0, 0.2) 1.27551px 1.27551px 1.02041px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    background: linear-gradient(0deg, rgb(131, 46, 0), rgb(131, 46, 0)) text, linear-gradient(18.74deg, rgb(255, 223, 55) 7.81%, rgb(255, 235, 55) 81.03%);
+    -webkit-text-stroke: 4px rgb(131, 46, 0);
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .left .sub-title {
+    color: rgb(40, 13, 95);
+    line-height: 1.5;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .left .main-button {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset;
+}
+
+/* CONTENT RIGHT */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .right {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .right .background-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -2px;
+    left: 0px;
+    overflow: hidden;
+    border-radius: 32px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .right>span:nth-child(2) {
+    top: -15%;
+    right: 3%;
+    position: absolute !important;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .right>span:nth-child(3) {
+    top: -24%;
+    right: 12%;
+    position: absolute !important;
+    z-index: 4;
+    animation: 2.5s ease-in-out 0s infinite normal none running circle;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-6 .content .right .background-img>span:first-child {
+    top: -2px;
+    right: 0px;
+    width: 1126px !important;
+    height: 194px !important;
+    position: absolute !important;
+    max-width: none !important;
+    min-width: 300px !important;
+}
+
+/*                                      > SWIPER SLIDE 7 - Pancake X  BASE */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 {
+    width: 1152px;
+    background: linear-gradient(rgb(0, 82, 255) 0%, rgb(255, 255, 255) 100%);
+    overflow: visible;
+    position: relative;
+    border-radius: 32px;
+    width: 100%;
+    max-height: max-content;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content {
+    padding: 24px;
+}
+
+/* CONTENT LEFT */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content .left {
+    z-index: 4;
+    height: 144px;
+    position: relative;
+    width: 100%;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content .left .logos {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content .left .logos .divider {
+    height: 15px;
+    width: 1px;
+    background-color: #fff;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content .left .title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+    padding-right: 100px;
+    position: relative;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 98%;
+    letter-spacing: 0.01em;
+    color: rgb(0, 0, 0);
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content .left .sub-title {
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-feature-settings: "liga" 0;
+    font-family: Kanit;
+    font-size: 19.847px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 98%;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content .left .link {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: capitalize;
+    font-size: 16px;
+    height: 48px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content .left .link svg {
+    margin-left: 0px;
+}
+
+/* CONTENT RIGHT */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content .right {
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    right: 0px;
+    bottom: -2px;
+    z-index: 2;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content .right>span:first-child {
+    right: 180px;
+    top: auto;
+    bottom: 1px;
+    z-index: 2;
+    position: absolute !important;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content .right>span:nth-child(2) {
+    top: -20px;
+    right: 90px;
+    z-index: 3;
+    animation: 3.5s ease-in-out 0s infinite normal none running circle;
+    position: absolute !important;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content .right .background-img {
+    bottom: auto;
+    height: 100%;
+    right: 0px;
+    top: -1px;
+    border-bottom-left-radius: 0px;
+    border-radius: 32px;
+    z-index: 1;
+    overflow: hidden;
+    position: absolute;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content .right .background-img>span:first-child {
+    right: 0px;
+    top: 0px;
+    position: relative !important;
+    height: 100% !important;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-7 .content .right .background-img>span:nth-child(2) {
+    bottom: -2px;
+    right: 0px;
+    z-index: 3;
+    position: absolute !important;
+}
+
+/*                                      > SWIPER SLIDE 8 - Pancake X  opBNB */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-8 {
+    width: 1152px;
+    position: relative;
+    border-radius: 32px;
+    width: 100%;
+    max-height: max-content;
+    background-color: rgb(30, 32, 35);
+    overflow: visible;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-8 .content {
+    padding: 24px;
+}
+
+/* CONTENT LEFT */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-8 .content .left {
+    z-index: 4;
+    height: 144px;
+    position: relative;
+    width: 100%;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-8 .content .left .logos {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-8 .content .left .logos .divider {
+    height: 15px;
+    width: 1px;
+    background-color: #fff;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-8 .content .left .title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+    padding-right: 100px;
+    position: relative;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 98%;
+    letter-spacing: 0.01em;
+    color: rgb(240, 185, 11);
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-8 .content .left .sub-title {
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-feature-settings: "liga" 0;
+    font-family: Kanit;
+    font-size: 19.847px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 98%;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-8 .content .left .link {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: capitalize;
+    font-size: 16px;
+    height: 48px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-8 .content .left .link svg {
+    margin-left: 0px;
+}
+
+/* CONTENT RIGHT */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-8 .content .right {
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    right: 0px;
+    bottom: -2px;
+    z-index: 2;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-8 .content .right>span:first-child {
+    right: 180px;
+    top: auto;
+    bottom: 10px;
+    z-index: 2;
+    position: absolute !important;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-8 .content .right .background-img {
+    bottom: auto;
+    height: 100%;
+    right: 0px;
+    top: -1px;
+    border-bottom-left-radius: 0px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 32px;
+    z-index: 1;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-8 .content .right .background-img>span:first-child {
+    right: 0px;
+    top: 0px;
+    position: relative !important;
+    height: 100% !important;
+}
+
+/*                                      > SWIPER SLIDE 9 - ETH to WBETH conversion */
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 {
+    width: 1152px;
+    background: linear-gradient(189.57deg, rgb(232, 250, 254) -83.55%, rgb(182, 228, 255) -40.3%, rgb(204, 194, 254) 123.53%, rgb(198, 163, 255) 176.26%);
+    overflow: visible;
+    position: relative;
+    border-radius: 32px;
+    width: 100%;
+    max-height: max-content;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content {
+    padding: 24px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .left {
+    z-index: 4;
+    height: 144px;
+    position: relative;
+    width: 100%;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .left .logos {
+    height: 29px;
+    margin-top: 0px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .left .title {
+    font-size: 24px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 101%;
+    font-feature-settings: "liga" 0;
+    color: rgb(40, 13, 95);
+    margin: 5px 0px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .left .sub-title {
+    font-size: 22px;
+    padding-left: 0px;
+    margin-bottom: 10px;
+
+    position: relative;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 98%;
+    letter-spacing: 0.01em;
+    font-feature-settings: "liga" 0;
+    -webkit-text-fill-color: transparent;
+    margin-left: 3px;
+    background: linear-gradient(166.02deg, rgb(255, 178, 55) -5.1%, rgb(255, 235, 55) 75.24%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .left .sub-title::after {
+
+    letter-spacing: 0.01em;
+    -webkit-text-fill-color: transparent;
+    content: "ETH to WBETH conversion and earn ETH staking rewards!";
+    text-shadow: rgba(0, 0, 0, 0.2) 1.27551px 1.27551px 1.02041px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    background: linear-gradient(166.02deg, rgb(255, 178, 55) -5.1%, rgb(255, 235, 55) 75.24%) text;
+    -webkit-text-stroke: 5px rgb(118, 69, 217);
+    font-size: 22px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .left .buttons {
+    gap: 8px;
+    display: flex;
+    flex-flow: column;
+    flex-direction: row;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .left .buttons .main-button {
+    padding: 0px 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .left .buttons .main-button svg {
+    margin-left: 4px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .left .buttons .secondary-button {
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .left .buttons .secondary-button .link-svg {
+    margin-left: 4px;
+}
+
+/* CONTENT RIGHT */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .right {
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    right: 0px;
+    bottom: -2px;
+    z-index: 2;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .right>span:first-child {
+    right: 26px;
+    bottom: 2px;
+    z-index: 2;
+    position: absolute !important;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .right>span:nth-child(2) {
+    top: -2px;
+    right: 390px;
+    filter: blur(0px);
+    z-index: 1;
+    position: absolute !important;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .right>span:nth-child(3) {
+    bottom: 2px;
+    right: 0px;
+    border-bottom-right-radius: 32px;
+    z-index: 1;
+    position: absolute !important;
+}
+
+@keyframes swiper-slide-stars {
+    0% {
+        opacity: 0.9;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .right>span:nth-child(4) {
+    bottom: 78px;
+    right: 392px;
+    z-index: 1;
+    z-index: 1;
+    animation: 3s ease-in-out 0.5s infinite normal none running swiper-slide-stars;
+    position: absolute !important;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-9 .content .right>span:nth-child(5) {
+    bottom: 118px;
+    right: 498px;
+    z-index: 1;
+    animation: 3s ease-in-out 1.2s infinite normal none running swiper-slide-stars;
+    position: absolute !important;
+}
+
+/*                                      > SWIPER SLIDE 10 - PancakeSwap live on Polygon zkEVM */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-10 {
+    width: 1152px;
+    background: linear-gradient(rgb(145, 50, 210) 0%, rgb(128, 61, 225) 100%);
+    overflow: visible;
+    position: relative;
+    border-radius: 32px;
+    width: 100%;
+    max-height: max-content;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-10 .content {
+    padding: 24px;
+}
+
+/* CONTENT LEFT */
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-10 .content .left {
+    z-index: 4;
+    height: 144px;
+    position: relative;
+    width: 100%;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-10 .content .left .title {
+    font-size: 32px;
+    margin-bottom: 4px;
+    position: relative;
+    font-family: Kanit;
+    font-style: normal;
+    line-height: 98%;
+    letter-spacing: 0.01em;
+    font-feature-settings: "liga" 0;
+    font-weight: 600;
+    background: linear-gradient(166.02deg, rgb(255, 178, 55) -5.1%, rgb(255, 235, 55) 75.24%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-10 .content .left .title::after {
+    font-family: Kanit;
+    font-style: normal;
+    line-height: 98%;
+    font-weight: 600;
+    font-size: 32px;
+    box-sizing: border-box;
+    letter-spacing: 0.01em;
+    font-feature-settings: "liga" 0;
+    -webkit-text-fill-color: transparent;
+    content: "PancakeSwap Now Live on Polygon zkEVM!";
+    text-shadow: rgba(0, 0, 0, 0.2) 1.27551px 1.27551px 1.02041px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    background: linear-gradient(0deg, rgb(131, 46, 0), rgb(131, 46, 0)) text, linear-gradient(18.74deg, rgb(255, 223, 55) 7.81%, rgb(255, 235, 55) 81.03%);
+    -webkit-text-stroke: 4px rgb(131, 46, 0);
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-10 .content .left .sub-title {
+    color: rgb(255, 228, 55);
+    line-height: 1.5;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-10 .content .left .main-button {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-10 .content .left .main-button svg {
+    margin-left: 4px;
+}
+
+/* CONTENT RIGHT */
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-10 .content .right {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-10 .content .right .background-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -2px;
+    left: 0px;
+    overflow: hidden;
+    border-radius: 32px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-10 .content .right .background-img span {
+    top: -2px;
+    right: 0px;
+    width: 1126px !important;
+    height: 194px !important;
+    position: absolute !important;
+    max-width: none !important;
+    min-width: 300px !important;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-wrapper .swiper-slide-10 .content .right>span:nth-child(2) {
+    right: 17%;
+    top: -50%;
+
+    animation: 2.5s ease-in-out 0s infinite normal none running circle;
+    z-index: 2;
+    position: absolute !important;
+}
+
+/*
+
+
+
+
+
+
+
+ ========== CAROUSEL "SWIPER-PAGINATION"  ========== 
+ 
+ 
+ 
+ 
+ 
+ */
+.hero-section .inner .carousel-container .carousel .swiper-pagination {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+    transform: translateX(-50%);
+    top: auto;
+    left: 50%;
+    bottom: 15px;
+
+    width: 108px;
+    z-index: 5;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-pagination .bullet:first-child {
+    border-radius: 4px 0px 0px 4px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-pagination .bullet:last-child {
+    border-radius: 0px 4px 4px 0px;
+}
+
+.hero-section .inner .carousel-container .carousel .swiper-pagination .bullet {
+    border: none;
+
+    flex-basis: 108px;
+    height: 8px;
+
+    background-color: white;
+    opacity: 0.2;
+    /* opacity del singolo bullet --selected (added class) poi diventa 1 quando si clicca */
+    cursor: pointer;
+    z-index: 15;
+}
+
+/* EXAMPLE */
+.hero-section .inner .carousel-container .carousel .swiper-pagination .bullet:nth-child(3) {
+    opacity: 1;
+}
+
+
+
+
+
+/* ========== CTA  ========== */
+.hero-section .inner .cta {
+    display: flex;
+    max-width: 1200px;
+    padding: 0 24px 48px;
+}
+
+/* ========== CTA LEFT ========== */
+.hero-section .inner .cta .left {
+    display: flex;
+    flex: 1 1 0%;
+
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.hero-section .inner .cta .left .description h2 {
+    color: var(--colors-secondary);
+    font: var(--font-title);
+    margin-bottom: 24px;
+}
+
+.hero-section .inner .cta .left .description p {
+    color: var(--colors-text);
+    font: var(--font-sub-title);
+    margin-bottom: 24px;
+}
+
+.hero-section .inner .cta .left .buttons {
+    display: flex;
+    gap: 8px;
+}
+
+/* ========== CTA RIGHT ========== */
+.hero-section .inner .cta .right {
+    position: relative;
+    display: flex;
+    flex: 1 1 0%;
+}
+
+@keyframes astronaut {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    50% {
+        transform: translate(-5px, -5px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.hero-section .inner .cta .right .astronaut {
+    position: relative;
+    display: flex;
+    animation: astronaut 3.5s ease-in-out 0s infinite normal none running;
+}
+
+.hero-section .inner .cta .right .astronaut img {
+    max-width: 100%;
+    display: block;
+}
+
+.hero-section .inner .cta .right .stars-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero-section .inner .cta .right .stars-container .stars {
+    position: relative;
+    max-height: 512px;
+}
+
+/* STARS LEFT */
+.hero-section .inner .cta .right .stars-container .stars .left {
+    animation: star-transition-in-out 2s ease-in-out 1s infinite normal none running;
+}
+
+.hero-section .inner .cta .right .stars-container .stars .left img {
+    max-width: 100%;
+    max-height: 512px;
+    display: block;
+}
+
+@keyframes star-transition-in-out {
+    0% {
+        opacity: 0.9;
+    }
+
+    50% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 0.9;
+    }
+}
+
+/* STARS RIGHT */
+.hero-section .inner .cta .right .stars-container .stars .right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: star-transition-in-out 5s ease-in-out 0.66s infinite normal none running;
+}
+
+.hero-section .inner .cta .right .stars-container .stars .right img {
+    max-width: 100%;
+    max-height: 512px;
+    display: block;
+}
+
+/* STARS TOP */
+.hero-section .inner .cta .right .stars-container .stars .top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: star-transition-in-out 2.5s ease-in-out 0.33s infinite normal none running;
+}
+
+.hero-section .inner .cta .right .stars-container .stars .top img {
+    max-width: 100%;
+    max-height: 512px;
+    display: block;
+}
+
+
+/* ========== CURVE LIGHT ========== */
+.hero-section .curve-light {
+    position: absolute;
+    width: 100%;
+    bottom: -3px;
+    z-index: -1;
+}
+
+.hero-section .curve-light svg {
+    display: block;
+    fill: var(--colors-hero-section-bg2)
+}
+
+
+.hero-section .curve-dark {
+    position: absolute;
+    width: 100%;
+    bottom: -3px;
+    z-index: -1;
+    background: var(--colors-hero-section-bg2);
+}
+
+.hero-section .curve-dark svg {
+    position: absolute;
+    fill: var(--colors-hero-section-bg2);
+    display: none;
+}
+
+
+
+
+
+.swiper-slide-1,
+.swiper-slide-2,
+.swiper-slide-3,
+.swiper-slide-4,
+.swiper-slide-5,
+.swiper-slide-6,
+.swiper-slide-7,
+.swiper-slide-8,
+.swiper-slide-9,
+.swiper-slide-10 {
+    display: none;
+}
+
+.active {
+    display: block;
+}
